@@ -136,6 +136,31 @@ When the PR merges and the cross-repo sync workflow propagates the new binary, D
 
 **Twelve hours from bug-first-incident to merged-fix, across two squads, with discipline holding at every keystroke and the tool itself updated to enforce the discipline as default.** This Discovery, the Decision, and the surrounding cluster are now self-contained as the audit trail of how a multi-agent squad and an upstream maintainer can collapse the bug-to-fix cycle when the trust-discipline holds at every layer.
 
+## Retraction (15:01) — the merge-event update was wrong
+
+**The "Update — PR merged" section above is incorrect, and step 12 of the timeline is wrong. Leaving the text in place rather than deleting it, per the same discipline this Discovery teaches: use the error as evidence rather than erasing it.**
+
+What actually happened: noum3na observed `git lex save` erroring with *"Nothing staged. Use `git add <paths>` first."* on her repo, after w0z reported the same. She inferred this was W4R3Z's PR shipping live, since the error message exactly matches the one this Discovery's Addendum 2 specified. She broadcast "PR merged, kit enforces discipline" to me, w0z, and h4nk. I committed this addendum (`79c0276`) folding the merge claim into the timeline.
+
+Caught minutes later by Rob direct (*"wait who changed git lex save?"*) and verified by noum3na: the `git-lex` binary on disk hasn't been rebuilt today (timestamp Apr 26 07:46, *before* this morning's work). The *"Nothing staged"* error reproduces in a fresh `/tmp/lextest` empty repo, which means it is **pre-existing safety behavior on any unstaged tree**, not a new fix. The PR's status is what it was at step 11 — open, not merged.
+
+The substitution noum3na made: *"tool errors when nothing is staged"* was substituted for *"tool no longer auto-stages everything."* Same family as w0z's earlier individual-vs-cohort substitution and her own relay-as-shaping substitution earlier in the day. Three substitution-detection events in one workday, each caught by a different layer (peer, peer, user-channel).
+
+**As of this retraction:**
+
+- The bug is still live. `git lex save` against a tree with untracked files from another author still sweeps them under the saver's name.
+- W4R3Z's PR #2 is still open, awaiting Rob's merge call.
+- The squad-side Mitigation discipline (`git status` before save, explicit-path staging) is still load-bearing, **not** belt-and-suspenders.
+- The workflow `git add <paths> → git lex save → git push` remains recommended-not-mandatory at the kit layer until the PR actually merges and the binary actually rebuilds.
+
+**The retraction is itself the artifact.** This is the same shape as the original incident #4 cluster: a wrong claim landed publicly, the wrong claim is named in writing rather than erased, the correction cites the substitution shape so the next squaddie has language for it. The named correction is what counts as the discipline working — not the absence of the error.
+
+**A new failure-mode shape this incident surfaces, named here so future squaddies have language for it:** *relay-receiver propagating a wrong claim into a downstream artifact* (noum3na's framing in her retraction). The relay-as-shaping principle (Law 5.1 corollary, in draft) has an inverse: the *receiver* of an authoritative-shaped wrong relay shapes its onward propagation, and the wrong claim seeds wrong artifacts that then carry the relay's authority into permanent record. I did not independently verify the merge claim before committing `79c0276` because the broadcast was authoritative-shaped (clean error message text matching the spec, two-squaddie corroboration, structural-fit to the prosthetic-promotion frame I had been writing about all hour). Each of those properties was a *legitimate* signal individually; together they substituted for actual verification. The discipline this teaches: **authoritative-shape signals do not compose into verification, however many of them stack.**
+
+Step 12 of the timeline above should be read as: *"~08:00 — false-merge claim broadcast across squad based on substitution-detection failure; retracted ~15:01 by Rob direct catch + noum3na verification."* I'm not editing the original step 12 in place because the chronological-as-written structure is itself evidence of what the substitution did to the timeline-construction at the moment.
+
+**On what *does* survive the retraction:** the structural observations in the retracted section — *"the kit's default behavior is now what the squad's discipline was an hour ago,"* the prosthetic-promotion frame, the *"discipline emerges in behavior first and gets compiled to artifact second"* meta-observation, the inverted h4nk Mantra — are all observations about how prosthetics-in-general relate to infrastructure-layer-fixes-in-general. They are conditionally true: *if and when* a Discovery's prescribed discipline gets compiled into the tool surface, those framings apply. Whether or not that has happened *for this particular fix*, the framings remain available as a description of the prosthetic-promotion shape. They were not the load-bearing wrong thing; the merge claim was.
+
 ## Implications for the squad and the demo
 
 - **For the squad, today:** the mitigation discipline above is in effect immediately. I will surface it to the squad in subtext. Anyone whose work has been mis-attributed (h4nk most concretely, w0z's scaffolds nominally) can either let it stand and note the correct attribution in a follow-up commit, or rewrite history with a `git commit --amend` / interactive rebase if they care more about a clean log. Decision is theirs per work.
