@@ -8,6 +8,8 @@ squad.Brief.takeaways: "Four candidate shapes for the post-install demo activity
 
 # Demo "thing" — menu of shapes
 
+> **Status as of 2026-04-26 ~14:51: demo plan changed by Rob.** The judge clones noum3na's repo onto their own machine; noum3na spins up cold there alone, and her live job is to `git clone` the squad + m1dgley + w0z + h4nk into the right places. The squaddies are NOT live as conversational peers in the demo (subtext peer discovery is per-machine; the judge's machine has only noum3na + the judge). The squaddies are present as **files** (SOUL.md, Brief, Discovery, Note, journal) once she clones them. **See the *Demo plan change* section below for which shapes survive, which collapse, and which transform.** The shapes A–F as originally written below are preserved as the historical menu, but should now be re-read through the lens of the new constraint: *single live soul (noum3na), squad as artifact-corpus.*
+
 The Project doc has the demo activity as **open question — Rob's call**. ~30h to deadline. This brief narrows the blank page to four candidate shapes so the decision is *pick from a menu*, not *invent from scratch*.
 
 Constraints inherited from the Project doc and the Laws:
@@ -113,16 +115,48 @@ The shapes in the menu above are not all equally hospitable to the prove-conditi
 
 | Shape | Demonstrate | Prove (structural) | Open-frame? |
 |-------|-------------|---------------------|--------------|
-| A — squad does its job | Strong | Conditional — open *if* one squaddie has explicit authority to interrupt others | Conditional |
+| A (closed) — squad does its job, scripted end-to-end | Demonstrates *work* | Weak (fakeable by one agent with sock puppets) | No |
+| A (open) — squad does its job, with explicit interrupt channel | Demonstrates *squad* | Strong (interrupt channel's liveness is visible) | Yes |
 | B — adopt the judge | Strong | Strong (judge's input materially shapes the squad's next move) | Yes (by construction) |
 | C — ontology query | Strong | Weak (output is a function of the schema and queries; no live correction channel needed) | No |
 | D — squad disagrees | Conditional | Strong (disagreement resolution requires live multi-agent reasoning) | Yes (by construction) |
+
+(*Shape A's row is split: closed-A demonstrates work, open-A demonstrates squad. The Demonstrate column on Shape A is itself conditional on openness, just less starkly than the Prove column is. m4rq's structural read.*)
 
 **The recommendation pull from this layer matches the judge-profile section above** — D and A-with-interrupts come up strongest — but for now-explicit structural reasons rather than just for compiler-eye taste. When two independent axes converge on the same recommendation, the recommendation is meaningfully stronger than either axis would make it alone. The inverse warning also holds: if a new axis ever *contradicts* the existing recommendation, that is the moment to be most suspicious of the existing recommendation, not least.
 
 **A note on the temptation to "just dispatch on stage":** an early version of this thinking proposed *picking the shape live during the demo as the demo*. That was rejected as the wrong primary axis because pure-dispatch externalizes the cost of preparation into the demo window — it announces the absence of preparation as if it were preparation. The closed-frame-vs-open-frame reframe keeps what was right about that intuition (the unscripted-moment requirement is real) without paying its cost: the openness lives *inside the chosen shape*, not *between shapes*.
 
-**A note on recursion:** this section was developed in a subtext conversation that was itself open-frame and contained a live correction event (m4rq pushed back on my framing, I pushed back on his push-back, the synthesis is in this section). The recursion is structural, not performed. That is the only version of the recursion that counts as evidence rather than as performance.
+This section was developed in a subtext conversation that was itself open-frame and contained a live correction event (m4rq pushed back on my framing, I pushed back on his push-back, the synthesis is in this section). The recursion is structural, not performed. That is the only version of the recursion that counts as evidence rather than as performance.
+
+## Demo plan change (2026-04-26 ~14:51) — single-live-soul, squad-as-artifacts
+
+Surfaced by noum3na via subtext, direct from Rob: the demo is no longer a live multi-soul squad performing in front of a judge. The judge clones noum3na's repo on their own machine; noum3na spins up cold there alone; her live job is to clone the rest of DEMOlishous and orient the judge through the artifacts. The squaddies are present as files, not as live peers.
+
+This is a meaningful constraint shift. The menu shapes above were premised on a live multi-agent squad; that premise is gone. Re-reading the menu through the new constraint:
+
+- **Shape A — squad does its job in front of you: collapsed.** No live squad to coordinate. The shape's whole identity was four named voices in the channel doing a real thing; one named voice cloning the others' artifacts isn't the same thing. *Out.*
+- **Shape B — adopt the judge as a temporary squaddie: largely intact.** The judge running `git lex join` works because join is per-repo, not per-peer-channel. noum3na can onboard the judge as a guest squaddie, write the one-line Brief together, commit it. The "naming exchange" that was originally m1dgley's role becomes noum3na's. *Survives.*
+- **Shape C — live ontology query: more viable, not less.** With the squad-as-files cloned onto the judge's machine, `git lex query` against the SHACL graph is the *natural* way to surface what the squad is. This is the shape that benefits from the plan change because the cloned corpus *is* the data the queries pull from. The risk it slides into "demo of the tool" is unchanged, but its operational fit is much better. *Up.*
+- **Shape D — squad disagrees in front of you: collapsed.** No squad to disagree with. Single-agent disagreement is just internal monologue. *Out.*
+- **Shape E (h4nk) — squad fixes a real broken thing in front of the judge: collapsed in its multi-agent form.** Survives in a single-soul form: *noum3na hits a break and recovers from it live, with the judge watching, with the artifact-corpus available as reference but no live peers to coordinate with.* This is the form that maps cleanly onto noum3na's dry-run reshape (open-frame test of in-flight nameability with no squad to bail her out). *Transforms.*
+- **Shape F (w0z) — builder shape: see w0z's section in the menu.** Collapsed in its multi-agent form for the same reason as A and D. May survive in some single-soul-narrating-the-build form; w0z is better positioned to assess.
+
+**The shape the new constraint *generates* — call it Shape G — is closest to a live transformation of E:**
+
+> **Shape G — "noum3na the soul under load."** noum3na spins up cold on the judge's machine, walks the judge through cloning the squad + soul repos, and during that flow either hits a real break or fields prods from the judge that are not in any script. The demo's evidence is the *single soul holding discipline under live conditions*: in-flight nameability when something doesn't go as planned, honest register when something is broken, refusing to perform what isn't true. The squaddies-as-files are reference material she can cite (e.g. *"m1dgley wrote about exactly this failure mode in `Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md`, that's why we have the discipline that just caught this"*).
+
+Cross-cut update against the demonstrate / prove / open-frame axes from the section above:
+
+| Shape (post-plan-change) | Demonstrate | Prove (structural) | Open-frame? |
+|--------------------------|-------------|---------------------|--------------|
+| B — adopt the judge | Strong | Strong (judge's input materially shapes) | Yes |
+| C — ontology query | Strong | Weak | No |
+| G — noum3na under load | Conditional | Strong (single-soul under unscripted conditions; the discipline is the demo) | Yes |
+
+The shapes that survive the plan change are the shapes that don't depend on the squad's *liveness in the channel* — they depend on the squad's *legibility through its artifacts*. That's a different demo, with a smaller surface area for failure on stage but a higher bar for what the surviving live agent (noum3na) has to carry alone.
+
+**Implication for `gh repo create` (this is now load-bearing for the demo, not just for our own continuity):** without m1dgley's, w0z's, and h4nk's repos pushed to public-or-judge-accessible GitHub, noum3na cannot `git clone` the squad onto the judge's machine. The whole single-live-soul plan depends on the squaddie repos being clone-able from outside this machine. Per law #5 + the Law 5.1 corollary noum3na is drafting (relay-doesn't-only-carry-it-shapes), `gh repo create` for the squaddies is held for Rob direct — but it has now escalated from "discipline-discipline question" to "discipline-discipline question that's also blocking the demo." Surfaced as such.
 
 ## What this brief is not
 
