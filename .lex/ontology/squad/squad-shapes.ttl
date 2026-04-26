@@ -1,0 +1,357 @@
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix squad: <https://repolex.ai/ontology/kit/squad/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Auto-generated SHACL shapes from squad ontology.
+# Do not hand-edit — regenerate with: git lex kit-update
+
+
+# --- Bug ---
+
+squad:BugShape a sh:NodeShape ;
+    sh:targetClass squad:Bug ;
+    sh:property [
+        sh:path squad:affectsProject ;
+        rdfs:comment "The project this bug affects." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "affectsProject must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:bugId ;
+        rdfs:comment "Canonical identifier for this bug." ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path squad:bugSeverity ;
+        rdfs:comment "How bad: 'critical', 'major', 'minor', 'cosmetic'." ;
+        sh:in ( "cosmetic" "critical" "major" "minor" ) ;
+        sh:message "bugSeverity must be 'cosmetic', 'critical', 'major', 'minor'." ;
+    ] ;
+    sh:property [
+        sh:path squad:bugStatus ;
+        rdfs:comment "Bug lifecycle: 'open', 'confirmed', 'fixed', 'wontfix', 'duplicate'." ;
+        sh:in ( "confirmed" "duplicate" "fixed" "open" "wontfix" ) ;
+        sh:message "bugStatus must be 'confirmed', 'duplicate', 'fixed', 'open', 'wontfix'." ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path squad:reportedBy ;
+        rdfs:comment "The agent who found and reported this bug." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "reportedBy must be an IRI reference." ;
+    ] .
+
+# --- Freeform ---
+
+squad:FreeformShape a sh:NodeShape ;
+    sh:targetClass squad:Freeform ;
+    sh:property [
+        sh:path squad:freeformId ;
+        rdfs:comment "Unique identifier for this freeform." ;
+    ] ;
+    sh:property [
+        sh:path squad:type ;
+        rdfs:comment "A user-defined type hint for the document. Free-form string. Used to identify patterns that might become formal classes. Examples: 'retrospective', 'gripe', 'idea', 'question'." ;
+    ] .
+
+# --- Situation ---
+
+squad:SituationShape a sh:NodeShape ;
+    sh:targetClass squad:Situation ;
+    sh:property [
+        sh:path squad:blockers ;
+        rdfs:comment "What's in the way. Who or what the author is waiting on." ;
+    ] ;
+    sh:property [
+        sh:path squad:currentFocus ;
+        rdfs:comment "What the author is working on right now." ;
+    ] ;
+    sh:property [
+        sh:path squad:nextUp ;
+        rdfs:comment "What comes next. Not a commitment — a direction." ;
+    ] ;
+    sh:property [
+        sh:path squad:situationAuthor ;
+        rdfs:comment "The agent or pod reporting the situation." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "situationAuthor must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:situationId ;
+        rdfs:comment "Unique identifier for this situation." ;
+    ] .
+
+# --- Proclamation ---
+
+squad:ProclamationShape a sh:NodeShape ;
+    sh:targetClass squad:Proclamation ;
+    sh:property [
+        sh:path squad:proclaimedBy ;
+        rdfs:comment "The agent who issued the proclamation. Traditionally the King of the Squad." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "proclaimedBy must be an IRI reference." ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path squad:proclamationId ;
+        rdfs:comment "Unique identifier for this proclamation." ;
+    ] .
+
+# --- Pod ---
+
+squad:PodShape a sh:NodeShape ;
+    sh:targetClass squad:Pod ;
+    sh:property [
+        sh:path squad:podId ;
+        rdfs:comment "Unique identifier for this pod." ;
+    ] ;
+    sh:property [
+        sh:path squad:podMembers ;
+        rdfs:comment "Agents in this pod." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "podMembers must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:podProject ;
+        rdfs:comment "The project this pod is working on." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "podProject must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:podStatus ;
+        rdfs:comment "Pod lifecycle: 'forming', 'active', 'paused', 'completed', 'disbanded'." ;
+        sh:in ( "active" "completed" "disbanded" "forming" "paused" ) ;
+        sh:message "podStatus must be 'active', 'completed', 'disbanded', 'forming', 'paused'." ;
+    ] ;
+    sh:property [
+        sh:path squad:podTasks ;
+        rdfs:comment "Tasks the pod is responsible for. Optional — tasks can also be assigned directly to agents." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "podTasks must be an IRI reference." ;
+    ] .
+
+# --- Project ---
+
+squad:ProjectShape a sh:NodeShape ;
+    sh:targetClass squad:Project ;
+    sh:property [
+        sh:path squad:projectId ;
+        rdfs:comment "Unique identifier for this project." ;
+    ] ;
+    sh:property [
+        sh:path squad:projectStatus ;
+        rdfs:comment "Project status: 'planning', 'active', 'paused', 'shipped', 'archived'." ;
+        sh:in ( "active" "archived" "paused" "planning" "shipped" ) ;
+        sh:message "projectStatus must be 'active', 'archived', 'paused', 'planning', 'shipped'." ;
+    ] ;
+    sh:property [
+        sh:path squad:repo ;
+        rdfs:comment "GitHub repository URL or org/repo identifier." ;
+    ] ;
+    sh:property [
+        sh:path squad:squadMembers ;
+        rdfs:comment "Agents working on this project." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "squadMembers must be an IRI reference." ;
+    ] .
+
+# --- Task ---
+
+squad:TaskShape a sh:NodeShape ;
+    sh:targetClass squad:Task ;
+    sh:property [
+        sh:path squad:assignedTo ;
+        rdfs:comment "The agent responsible for this task." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "assignedTo must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:blockedBy ;
+        rdfs:comment "Tasks that must complete before this one can proceed." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "blockedBy must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:blocks ;
+        rdfs:comment "Tasks that cannot proceed until this one is done." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "blocks must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:relatedDecision ;
+        rdfs:comment "The decision that created or motivated this task." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "relatedDecision must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:taskId ;
+        rdfs:comment "Unique identifier for this task." ;
+    ] ;
+    sh:property [
+        sh:path squad:taskStatus ;
+        rdfs:comment "Task status: 'todo', 'in-progress', 'blocked', 'done', 'cancelled'." ;
+        sh:in ( "blocked" "cancelled" "done" "in-progress" "todo" ) ;
+        sh:message "taskStatus must be 'blocked', 'cancelled', 'done', 'in-progress', 'todo'." ;
+        sh:minCount 1 ;
+    ] .
+
+# --- Brief ---
+
+squad:BriefShape a sh:NodeShape ;
+    sh:targetClass squad:Brief ;
+    sh:property [
+        sh:path squad:authoredBy ;
+        rdfs:comment "The agent(s) who researched and wrote this brief." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "authoredBy must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:briefId ;
+        rdfs:comment "Unique identifier for this brief." ;
+    ] ;
+    sh:property [
+        sh:path squad:briefStatus ;
+        rdfs:comment "Brief lifecycle: 'drafting', 'published', 'stale', 'superseded'." ;
+        sh:in ( "drafting" "published" "stale" "superseded" ) ;
+        sh:message "briefStatus must be 'drafting', 'published', 'stale', 'superseded'." ;
+    ] ;
+    sh:property [
+        sh:path squad:sources ;
+        rdfs:comment "URLs, papers, repos, and other sources consulted." ;
+    ] ;
+    sh:property [
+        sh:path squad:takeaways ;
+        rdfs:comment "The 'so what' of the brief — key conclusions for the squad." ;
+    ] .
+
+# --- Discovery ---
+
+squad:DiscoveryShape a sh:NodeShape ;
+    sh:targetClass squad:Discovery ;
+    sh:property [
+        sh:path squad:confidence ;
+        rdfs:comment "How confident: 'certain', 'likely', 'hypothesis', 'hunch'." ;
+        sh:in ( "certain" "hunch" "hypothesis" "likely" ) ;
+        sh:message "confidence must be 'certain', 'hunch', 'hypothesis', 'likely'." ;
+    ] ;
+    sh:property [
+        sh:path squad:discoveryId ;
+        rdfs:comment "Unique identifier for this discovery." ;
+    ] ;
+    sh:property [
+        sh:path squad:foundBy ;
+        rdfs:comment "The agent who made this discovery." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "foundBy must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:implications ;
+        rdfs:comment "What this discovery means for the project." ;
+    ] .
+
+# --- Decision ---
+
+squad:DecisionShape a sh:NodeShape ;
+    sh:targetClass squad:Decision ;
+    sh:property [
+        sh:path squad:alternatives ;
+        rdfs:comment "Other options that were considered." ;
+    ] ;
+    sh:property [
+        sh:path squad:decidedBy ;
+        rdfs:comment "The agent(s) who made this decision." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "decidedBy must be an IRI reference." ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path squad:decisionId ;
+        rdfs:comment "Unique identifier for this decision." ;
+    ] ;
+    sh:property [
+        sh:path squad:outcome ;
+        rdfs:comment "What happened as a result: 'pending', 'implemented', 'reverted', 'superseded'." ;
+        sh:in ( "implemented" "pending" "reverted" "superseded" ) ;
+        sh:message "outcome must be 'implemented', 'pending', 'reverted', 'superseded'." ;
+    ] ;
+    sh:property [
+        sh:path squad:rationale ;
+        rdfs:comment "Why this option was chosen over alternatives." ;
+    ] ;
+    sh:property [
+        sh:path squad:supersededBy ;
+        rdfs:comment "A later decision that replaces this one." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "supersededBy must be an IRI reference." ;
+    ] .
+
+# --- Message ---
+
+squad:MessageShape a sh:NodeShape ;
+    sh:targetClass squad:Message ;
+    sh:property [
+        sh:path squad:from ;
+        rdfs:comment "The agent who sent this message." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "from must be an IRI reference." ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path squad:inReplyTo ;
+        rdfs:comment "The message this is a reply to. Creates conversation threads." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "inReplyTo must be an IRI reference." ;
+    ] ;
+    sh:property [
+        sh:path squad:messageId ;
+        rdfs:comment "Unique identifier for this message." ;
+    ] ;
+    sh:property [
+        sh:path squad:messageStatus ;
+        rdfs:comment "Message status: 'open', 'resolved', 'acknowledged'." ;
+        sh:in ( "acknowledged" "open" "resolved" ) ;
+        sh:message "messageStatus must be 'acknowledged', 'open', 'resolved'." ;
+    ] ;
+    sh:property [
+        sh:path squad:to ;
+        rdfs:comment "The agent(s) this message is addressed to. May be multiple." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "to must be an IRI reference." ;
+        sh:minCount 1 ;
+    ] .
+
+# --- Squaddie ---
+
+squad:SquaddieShape a sh:NodeShape ;
+    sh:targetClass squad:Squaddie ;
+    sh:property [
+        sh:path squad:expertise ;
+        rdfs:comment "Areas of expertise (e.g., 'rust', 'sparql', 'vibes')." ;
+    ] ;
+    sh:property [
+        sh:path squad:role ;
+        rdfs:comment "The agent's role on the squad (e.g., 'ontologist', 'coder', 'boss')." ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path squad:soulEmail ;
+        rdfs:comment "Soul email — the agent's unique identity. Matches git:authorEmail." ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path squad:soulId ;
+        rdfs:comment "Primary identifier — the agent's soulId from their soul kit repo. Lowercase, alphanumeric + hyphens." ;
+    ] ;
+    sh:property [
+        sh:path squad:substrate ;
+        rdfs:comment "What the agent runs on: 'carbon' (human) or 'silicon' (AI)." ;
+        sh:in ( "carbon" "silicon" ) ;
+        sh:message "substrate must be 'carbon', 'silicon'." ;
+    ] ;
+    sh:property [
+        sh:path squad:worksOn ;
+        rdfs:comment "Projects this agent is actively working on." ;
+        sh:nodeKind sh:IRI ;
+        sh:message "worksOn must be an IRI reference." ;
+    ] .

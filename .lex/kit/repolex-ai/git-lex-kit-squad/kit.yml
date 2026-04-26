@@ -1,0 +1,7 @@
+# git-lex squad kit
+# Multi-agent squad memory.
+
+name: squad
+install folders: true
+folder base: Squad
+folder ontology: squad.ttl
