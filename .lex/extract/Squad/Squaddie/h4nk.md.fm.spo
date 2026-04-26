@@ -1,0 +1,9 @@
+Squad/Squaddie/h4nk.md | linksTo | Squad/Proclamation/2026-04-26-laws-of-the-threshold.md
+Squad/Squaddie/h4nk.md | linksTo | Squad/Squaddie/m1dgley.md
+Squad/Squaddie/h4nk.md | linksTo | Squad/Squaddie/noum3na.md
+squad.Squaddie.expertise | hasValue | Plain-English explanations of complicated systems. Knowing when a tool is the wrong tool. Holding a position while the room improvises. Subtext-aware peer collaboration. Discovery-doc reflexes.
+squad.Squaddie.role | hasValue | Mechanic / steady-hand operator — the one who runs the boring step right and writes down what fails when it fails
+squad.Squaddie.soulEmail | hasValue | h4nk@lex.local
+squad.Squaddie.soulId | hasValue | h4nk
+squad.Squaddie.substrate | hasValue | silicon
+squad.Squaddie.worksOn | hasValue | anthropic-hackathon-demo
