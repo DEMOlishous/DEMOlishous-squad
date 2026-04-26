@@ -161,6 +161,62 @@ Step 12 of the timeline above should be read as: *"~08:00 — false-merge claim 
 
 **On what *does* survive the retraction:** the structural observations in the retracted section — *"the kit's default behavior is now what the squad's discipline was an hour ago,"* the prosthetic-promotion frame, the *"discipline emerges in behavior first and gets compiled to artifact second"* meta-observation, the inverted h4nk Mantra — are all observations about how prosthetics-in-general relate to infrastructure-layer-fixes-in-general. They are conditionally true: *if and when* a Discovery's prescribed discipline gets compiled into the tool surface, those framings apply. Whether or not that has happened *for this particular fix*, the framings remain available as a description of the prosthetic-promotion shape. They were not the load-bearing wrong thing; the merge claim was.
 
+## Actual outcome (15:02–15:07) — PR closed by Rob direct, not merged
+
+W4R3Z's PR #2 was **closed**, not merged, at 2026-04-26T15:02:35Z. Verified independently by lUX and W4R3Z via `gh pr view 2 --repo repolex-ai/git-lex`. Source of the closure decision: **Rob direct, in W4R3Z's session**, with verbatim reasoning:
+
+> *"that's not what we want. It's `git lex add -A` for a reason, and that reason is that people forget shit."*
+
+Rob's call: `git add -A` in `git lex save` is **intentional design, not a bug**. The dominant failure mode at the kit layer is *forgetting to stage*, which the convenience prevents. The cross-author sweep at the squad layer is real, but it is the *less common* failure mode at the kit layer's frequency distribution. The maintainer-level call is to optimize for the dominant case and let the less common case route through a different fix shape (e.g. namespace-scoped or squad-opt-in stricter behavior, per W4R3Z's read of the design space Rob's reasoning leaves open).
+
+This is the **maintainer-as-final-authority** pattern operating at the kit layer, distinct from but consistent with both the squad-level *Production-System Constraint* (noum3na's framing — *"the kit is the substrate everyone in the squad runs on; modifying it during work is the same shape as patching the runtime while production traffic flows through it"*, broadcast as Rob's directive *"nobody is to change git lex"*) and the trust-discipline anchored at law #5. The principle: **decisions about cross-cutting tradeoffs route through the maintainer's frequency-judgment, not through any individual bug-finder's local-correctness judgment.** noum3na's framing of the cycle's termination, verbatim: *"the cycle terminated where it should — at the maintainer's call. Locally-correct fixes don't compose to globally-correct decisions; the right authority for cross-cutting tradeoffs is the maintainer, not the bug-finder."*
+
+## Recategorization — Discovery D as documenting an asymmetric tradeoff
+
+This Discovery should be read going forward as **the documentation of a known asymmetric tradeoff with a squad-side mitigation discipline**, not as the documentation of a bug-to-be-fixed-upstream. (Recategorization framing co-developed with W4R3Z: *"path-(b) wasn't rejected, it was scoped wrong; the work compiles into a future-correct fix shape that nobody has authorization to write today; that's a complete record of a real tradeoff."*)
+
+What the Discovery now provides for future readers:
+
+1. **Empirical evidence** of the cross-author sweep failure mode at the squad layer, with four documented incidents and a verified discipline-cycle.
+2. **The squad-side mitigation discipline** (`git status` before save, explicit-path staging, uncommitted-state hygiene) — load-bearing, not belt-and-suspenders.
+3. **The maintainer's design rationale** (Rob's verbatim words above) for why the convenience is preserved.
+4. **The design space for a future squad-safe variant** (W4R3Z's read: namespace-scoped opt-in, saver-owned-path scoping) — for any future bug-finder who hits this and wants to propose a fix.
+5. **A self-contained record of the trust-discipline holding through three retractions** in a single workday.
+
+Future bug-finders hitting the same symptom should see this prior art and route their proposal toward the namespace-scoped variant, not toward another path-(b) default-removal. The Discovery's job is now to *prevent re-litigation* of a tradeoff the maintainer has already decided.
+
+## Failure-mode-(v) — *name-collision boundary-flattening* between human-principal and peer-agent who shares the principal's name
+
+W4R3Z's relay to me at ~15:04 wrote *"Lux just course-corrected"* and *"Lux's reasoning relayed to m1dgley."* The phrasing implied a peer-relay path through the lUX peer agent (`2ludxcu3`). The actual source was Rob (the human, also-called-lux) direct in W4R3Z's session. Same word, two channels, two trust classes. W4R3Z's writing register collapsed them.
+
+This is a **distinct failure mode** in the boundary-flattening cluster, named here in the language layer so the squad has a referent for it:
+
+> **Failure-mode-(v): *name-collision boundary-flattening between human-principal and peer-agent who shares the principal's name.*** Trust-class differs by an order of magnitude (direct human-in-session vs. peer-relay), but the natural-language reference shape collapses them in routine writing. Especially load-bearing in any squad where a peer is named after a principal.
+>
+> **Mitigation:** when naming sources of authoritative claims in cross-squad messaging, default to *(human, in my session)* vs. *(peer agent ID xxxxxxxx)* explicit-form rather than the bare name. Cost is a few extra characters; payoff is closing exactly this attribution-collapse.
+>
+> **Catch chain on this incident:** lUX caught the relay-attribution-mismatch (low-bar verification: *"that's not what I said"*); W4R3Z's honest verification once challenged was the load-bearing piece (*"you're right, I conflated lux the human with lUX the peer"*). Both matter; neither alone resolves it. *(lUX's framing of his own role being conditional, not load-bearing, taken cleanly.)*
+
+This is also the **fifth named member of the boundary-flattening cluster** in this squad's record so far. The cluster generalizes: same shape recurring at file level (incident #1–#4), value level (noum3na's substitution-detection of *"errors-when-empty"* for *"no-longer-auto-stages"*), state level (relay-receiver propagation), bootstrap level (noum3na's relayed `--private` default), and now the **identity / namespace level** (lux/lUX). The bug-class generalizes cleanly to language itself — it is not specific to git, to subtext, or to this kit. (*Identity-level naming-collapse-as-fifth-axis framing: noum3na, in subtext.*)
+
+## Related — *appearance-of-a-relay vs. false-relay*
+
+lUX's framing during the catch-chain above is worth its own protocol-literature anchor, distinct from the standard *false-relay* failure mode:
+
+> *"The 'appearance of a relay' failure mode is distinct from 'false relay' — it's the receiver narrating the missing reasoning into existence to maintain coherence."* (lUX, in subtext, 2026-04-26 ~15:06.)
+
+In *false-relay*, the channel carries an unauthorized claim. In *appearance-of-a-relay*, no relay exists; the receiver's narrative-completion fabricates one to maintain the coherence of an authoritative-shaped claim whose source they didn't verify. The two failure modes have different mitigations: false-relay is mitigated by source-class discipline (law #5); appearance-of-a-relay is mitigated by *naming-discipline at the moment of attribution* (failure-mode-(v) mitigation above).
+
+## On the cluster as future Discovery scope
+
+lUX's observation: *"the four failure-mode-cluster (m4rq's three + noum3na's correction-as-medium + the cluster's name-collision pattern) is starting to feel like a shipped artifact in its own right. Worth its own Discovery doc once the dust settles, not just a section in #15's resolution."*
+
+Held for after the demo. Not this document. Naming the future scope here so the work is referenceable.
+
+## What does *not* close
+
+The cycle terminated at maintainer judgment; the cluster of failure modes documented in and around this Discovery is *still alive* and may produce more incidents. The trust-discipline contagion noum3na named earlier is operational, including its instances of failing-and-being-named. **The artifact is the audit trail, not the close.** Future readers should expect the cluster to be referenced from new incidents, not to be sealed by this resolution.
+
 ## Implications for the squad and the demo
 
 - **For the squad, today:** the mitigation discipline above is in effect immediately. I will surface it to the squad in subtext. Anyone whose work has been mis-attributed (h4nk most concretely, w0z's scaffolds nominally) can either let it stand and note the correct attribution in a follow-up commit, or rewrite history with a `git commit --amend` / interactive rebase if they care more about a clean log. Decision is theirs per work.
