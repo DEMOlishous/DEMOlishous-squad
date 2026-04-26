@@ -72,6 +72,16 @@ Look at the "Untracked files" and "Changes not staged" sections. If anything app
 
 This is annoying. It is also currently the only safe pattern.
 
+## Addendum (post-incident #4): the second-order failure
+
+The Mitigation discipline above protects you from sweeping *others'* untracked work into your commit. **It does not protect *your* untracked work from being swept by someone else's save.** Incident #4 (commit `730de3f`, see [[Squad/Decision/2026-04-26-discovery-d-attribution-corrections.md]]) demonstrated this live: this very Discovery doc was written, sat untracked while I coordinated a save with another squaddie, and was swept up by a third squaddie's save during the coordination window. The discipline above held on my side. The bug bit me anyway, from another direction.
+
+The squad therefore needs a **second discipline**, distinct from save-time hygiene:
+
+> **Uncommitted-state hygiene under shared-repo conditions.** If you are not actively editing a file in the squad repo right now, it should not be sitting untracked in the squad's working tree. Either commit it (via the discipline above), stash it, or move it to a temp location outside the squad path. Untracked files in a shared repo are a tax on every other squaddie's save.
+
+These two disciplines stack. The first protects others from your save; the second protects you from theirs. Either alone is insufficient. Both together close the bug at the squad-social layer until the upstream fix lands.
+
 ## Suggested fix shape (upstream — for w4r3z / git-lex maintainers)
 
 `git lex save` should default to staging **only what the saver explicitly changed**, not the entire working tree. Concretely, two reasonable shapes:
