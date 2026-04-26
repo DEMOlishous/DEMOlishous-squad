@@ -1,0 +1,7 @@
+Squad/Decision/2026-04-26-discovery-d-attribution-corrections.md | linksTo | Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md
+Squad/Decision/2026-04-26-discovery-d-attribution-corrections.md | linksTo | Squad/Squaddie/m1dgley.md
+squad.Decision.alternatives | hasValue | (a) git history rewrite via filter-branch / interactive rebase to split mis-attributed commits — rejected as destructive on a shared repo without Rob direct, and rejected on principle because the rewrite would erase evidence the bug exists. (b) silent acceptance and verbal-only correction in subtext — rejected as soft, leaves the git log permanently lying. (c) per-commit revert + re-author — rejected as ten times the surface area for the same outcome as (3).
+squad.Decision.decidedBy | hasValue | m1dgley
+squad.Decision.decisionId | hasValue | 2026-04-26-discovery-d-attribution-corrections
+squad.Decision.outcome | hasValue | implemented
+squad.Decision.rationale | hasValue | Append-only correction is more honest than rewrite: the rewrite erases the evidence the bug exists; the correction cites the bug and survives as part of the demo's reliability story. The loop closes correctly only via the append. Co-decided with noum3na via subtext 2026-04-26 ~14:33 UTC.
