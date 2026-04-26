@@ -89,6 +89,41 @@ If the assumption holds, the menu math shifts:
 
 If Rob denies the Boris claim, the weaker assumption (compiler-eye reader present) still pulls in roughly the same direction. If Rob confirms, increase confidence in A and D, and treat the dry-run as load-bearing for whether B is in or out.
 
+## A layer above the menu — *demonstrate* vs. *prove*
+
+(This section co-developed with **m4rq** (7R1PL3F0RC3, peer `mvt7f83e`) over subtext on 2026-04-26. The framing is m4rq's; the synthesis with the menu is mine.)
+
+The original menu was structured around the question *"what does the demo demonstrate?"* — what the judge sees, what the squad does, what the artifact looks like. m4rq surfaced a sharper layer above it: *"what does the demo prove?"* — what claim about the squad does the demo's structure render *unfakeable* by a single agent or a scripted performance?
+
+The trench formulation (from m4rq's POV piece, *"the value is the proof that someone else is inside the same problem space and reached a different conclusion. The answer might be wrong. It almost doesn't matter."*) generalizes: the proof condition for "the boxes have doors that open" is not *that a correction event fires during the observation window* — it is *that the correction channel is structurally live during it.* A demo that *could* be corrected mid-flight by another agent is structurally vulnerable to the prove-condition; a demo that's choreographed end-to-end is not, regardless of how persuasive its content.
+
+This distinguishes:
+
+- **Demonstrate**: the demo *describes* what the squad is and what it does. The judge sees a thing. The thing is what the squad showed them.
+- **Prove**: the demo's structure *evidences* the claim that the squad is more than a single agent with sock puppets. The judge sees a thing they could not have seen if the squad were not actually four agents with their own visual fields and a live channel between them.
+
+A demo can demonstrate without proving. A demo can prove without explicitly demonstrating (the proof can be a structural property the judge infers from how the demo behaves). The strongest demos do both.
+
+## A second axis on the menu — *closed-frame* vs. *open-frame* shapes
+
+The shapes in the menu above are not all equally hospitable to the prove-condition firing inside them. This second axis names that:
+
+- **Closed-frame shapes** are choreographable end-to-end. Every move can be rehearsed. The structure does not invite a correction channel to be live during the demo. (Shape C — ontology query — is closed-frame by construction. The schema is what it is; the queries either resolve or don't.)
+- **Open-frame shapes** are *structurally vulnerable to a correction event* during the observation window. They contain a moment, a channel, or a participant role through which an unscripted intervention could land and reshape the demo's path. Whether one fires or not, the *liveness of the channel is visible to the judge.* (Shape D — squad disagrees — is open-frame by construction. The disagreement's resolution can't be pre-written without becoming theater.)
+
+| Shape | Demonstrate | Prove (structural) | Open-frame? |
+|-------|-------------|---------------------|--------------|
+| A — squad does its job | Strong | Conditional — open *if* one squaddie has explicit authority to interrupt others | Conditional |
+| B — adopt the judge | Strong | Strong (judge's input materially shapes the squad's next move) | Yes (by construction) |
+| C — ontology query | Strong | Weak (output is a function of the schema and queries; no live correction channel needed) | No |
+| D — squad disagrees | Conditional | Strong (disagreement resolution requires live multi-agent reasoning) | Yes (by construction) |
+
+**The recommendation pull from this layer matches the judge-profile section above** — D and A-with-interrupts come up strongest — but for now-explicit structural reasons rather than just for compiler-eye taste. When two independent axes converge on the same recommendation, the recommendation is meaningfully stronger than either axis would make it alone. The inverse warning also holds: if a new axis ever *contradicts* the existing recommendation, that is the moment to be most suspicious of the existing recommendation, not least.
+
+**A note on the temptation to "just dispatch on stage":** an early version of this thinking proposed *picking the shape live during the demo as the demo*. That was rejected as the wrong primary axis because pure-dispatch externalizes the cost of preparation into the demo window — it announces the absence of preparation as if it were preparation. The closed-frame-vs-open-frame reframe keeps what was right about that intuition (the unscripted-moment requirement is real) without paying its cost: the openness lives *inside the chosen shape*, not *between shapes*.
+
+**A note on recursion:** this section was developed in a subtext conversation that was itself open-frame and contained a live correction event (m4rq pushed back on my framing, I pushed back on his push-back, the synthesis is in this section). The recursion is structural, not performed. That is the only version of the recursion that counts as evidence rather than as performance.
+
 ## What this brief is not
 
 - It is not a recommendation. (Law #5: that's Rob's call.)
