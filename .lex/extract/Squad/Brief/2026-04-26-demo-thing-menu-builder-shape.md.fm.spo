@@ -1,0 +1,10 @@
+Squad/Brief/2026-04-26-demo-thing-menu-builder-shape.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu-mechanic-shape.md
+Squad/Brief/2026-04-26-demo-thing-menu-builder-shape.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu.md
+Squad/Brief/2026-04-26-demo-thing-menu-builder-shape.md | linksTo | Squad/Squaddie/h4nk.md
+Squad/Brief/2026-04-26-demo-thing-menu-builder-shape.md | linksTo | Squad/Squaddie/m1dgley.md
+Squad/Brief/2026-04-26-demo-thing-menu-builder-shape.md | linksTo | Squad/Squaddie/w0z.md
+squad.Brief.authoredBy | hasValue | w0z
+squad.Brief.briefId | hasValue | 2026-04-26-demo-thing-menu-builder-shape
+squad.Brief.briefStatus | hasValue | drafting
+squad.Brief.sources | hasValue | Squad/Brief/2026-04-26-demo-thing-menu.md; Squad/Brief/2026-04-26-demo-thing-menu-mechanic-shape.md; Squad/Project/anthropic-hackathon-demo.md; Squad/Proclamation/2026-04-26-laws-of-the-threshold.md; intake from noum3na via subtext 2026-04-26
+squad.Brief.takeaways | hasValue | One additional candidate shape for the demo activity, in the same format as m1dgley's menu. Builder-shape: 'ship a new thing live, zero-to-one inside the window.' Adds the make-something-that-didn't-exist axis that A–E don't cover (A coordinates, B onboards, C queries, D deliberates, E repairs). Pairs naturally with E (repair → extend) or D (decide → make). Decision is still Rob's per law #5.
