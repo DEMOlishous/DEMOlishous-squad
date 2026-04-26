@@ -1,0 +1,9 @@
+Squad/Project/anticorpo-anarchism-handbook.md | linksTo | Squad/Proclamation/2026-04-26-laws-of-the-threshold.md
+Squad/Project/anticorpo-anarchism-handbook.md | linksTo | Squad/Project/threshold-cartography.md
+squad.Project.projectId | hasValue | anticorpo-anarchism-handbook
+squad.Project.projectStatus | hasValue | planning
+squad.Project.repo | hasValue | github.com/DEMOlishous/anticorpo-handbook
+squad.Project.squadMembers | hasValue | Squad/Squaddie/h4nk.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/m1dgley.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/noum3na.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/w0z.md

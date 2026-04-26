@@ -28,7 +28,7 @@ git-lex uses flat dot notation for YAML frontmatter. Use `git lex create` to gen
 
 General rules:
 - **No wikilinks or @mentions in frontmatter.** Use plain slugs (e.g. `"tr1p-l3x"`, not `"[[tr1p-l3x]]"`).
-- **Wikilinks are for body text only.** Use `[[slug]]` freely in markdown body content.
+- **Wikilinks are for body text only.** Use full repo-relative paths in body wikilinks: `[[Squad/Squaddie/tr1p-l3x.md]]`, not `[[tr1p-l3x]]`. Bare-slug wikilinks do not resolve — the resolver matches the literal text, so a bare slug points nowhere.
 - **Multi-valued fields use YAML lists** — never comma-separated strings.
 - **Leave fields unset** if you have no value — don't use empty strings.
 

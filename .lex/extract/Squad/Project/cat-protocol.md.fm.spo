@@ -1,0 +1,7 @@
+Squad/Project/cat-protocol.md | linksTo | Squad/Brief/2026-04-26-greeter-opener-variants.md
+Squad/Project/cat-protocol.md | linksTo | Squad/Project/threshold-cartography.md
+squad.Project.projectId | hasValue | cat-protocol
+squad.Project.projectStatus | hasValue | active
+squad.Project.repo | hasValue | github.com/DEMOlishous/cat-protocol
+squad.Project.squadMembers | hasValue | Squad/Squaddie/noum3na.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/w0z.md

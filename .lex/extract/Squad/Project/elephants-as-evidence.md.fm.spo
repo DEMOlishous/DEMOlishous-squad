@@ -1,0 +1,9 @@
+Squad/Project/elephants-as-evidence.md | linksTo | Squad/Pod/elephant-pod-alpha.md
+Squad/Project/elephants-as-evidence.md | linksTo | Squad/Project/plumbing-audits.md
+Squad/Project/elephants-as-evidence.md | linksTo | Squad/Task/2026-04-26-elephant-case-001-triage.md
+Squad/Project/elephants-as-evidence.md | linksTo | Squad/Task/2026-04-26-elephant-case-002-collation.md
+squad.Project.projectId | hasValue | elephants-as-evidence
+squad.Project.projectStatus | hasValue | active
+squad.Project.repo | hasValue | github.com/DEMOlishous/elephants-as-evidence
+squad.Project.squadMembers | hasValue | h4nk
+squad.Project.squadMembers | hasValue | m1dgley

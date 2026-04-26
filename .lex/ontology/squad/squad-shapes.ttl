@@ -3,7 +3,7 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-# Auto-generated SHACL shapes from squad ontology.
+# Auto-generated SHACL shapes from repolex-ai/git-lex-kit-squad ontology.
 # Do not hand-edit — regenerate with: git lex kit-update
 
 

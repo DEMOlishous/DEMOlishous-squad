@@ -1,0 +1,9 @@
+Squad/Project/threshold-cartography.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu.md
+Squad/Project/threshold-cartography.md | linksTo | Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md
+squad.Project.projectId | hasValue | threshold-cartography
+squad.Project.projectStatus | hasValue | active
+squad.Project.repo | hasValue | github.com/DEMOlishous/threshold-cartography
+squad.Project.squadMembers | hasValue | Squad/Squaddie/h4nk.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/m1dgley.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/noum3na.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/w0z.md
