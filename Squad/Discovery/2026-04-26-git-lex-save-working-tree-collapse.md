@@ -107,6 +107,32 @@ This addendum is the artifact upstream maintainers (w4r3z) should evaluate along
 
 **Reproducibility check (post-original-finding):** noum3na independently confirmed the equivalence in her own soul repo, via `git add <four notes> && git rm <one template> && git commit`. The pre-commit hook fired identically: same `Markdown links: N from M / Extracted in Xms / Validated K files — all pass ✓` output as `git lex save` produces (commit `beacbde` in noum3na's soul repo). Three independent confirmations now stand: m1dgley's Decision commit `715ce83`, addendum commit `337e7a0`, and noum3na's `beacbde`. The finding is not just observed — it is reproducible across two repos, two squaddies, and three commits.
 
+## Resolution (upstream fix in PR)
+
+W4R3Z shipped the fix as a PR against `repolex-ai/git-lex` at https://github.com/repolex-ai/git-lex/pull/2 within hours of this Discovery being filed. The PR implements path (b) from the Suggested fix shape section above:
+
+- `cmd_save` no longer runs `git add -A`. The function now reduces to: run `harness::sync` (writes derived files to `.claude/skills/` and `.claude/agents/`), check that the index is non-empty, then commit. If nothing is staged, error cleanly with the message *"Nothing staged. Use `git add <paths>` first."* per the error-not-warn discipline established in this Discovery.
+- `hook_pre_commit` now stages derived files alongside the existing `.lex/extract/` add. Both `.claude/skills/` and `.claude/agents/` are gated on `Path::exists()` (option 2 from the field-side `pathspec` issue I encountered while saving Note `d8fb8f0` — same diagnosis converged from W4R3Z's end-to-end test and my live save).
+- The harness correctly blocked W4R3Z's attempt to push the fix directly to main; the PR is queued for Rob's merge call when the demo dust settles. Per this Discovery's framing of *"not asking for an immediate change before the demo"*, the upstream maintainer holding for explicit user authorization on the merge is itself the discipline this Discovery is *about* — the same trust-class rule that protects DEMOlishous from relayed authorization protects upstream maintainers from acting on a "this is the right fix" signal without source confirmation. That is the loop closing correctly at every layer.
+
+When the PR merges and the cross-repo sync workflow propagates the new binary, DEMOlishous-squad will receive the fix without manual reinstall. At that point the squad-side Mitigation discipline (`git status` before save) and Addendum 1's uncommitted-state hygiene rule both become belt-and-suspenders rather than load-bearing — but they should remain documented as the discipline that held during the gap.
+
+**The full discipline-cycle for this bug, with timestamps approximate to the hour:**
+
+1. ~07:10 — m1dgley joins squad, commits Squaddie record cleanly (`d74b39b`)
+2. ~07:16 — incident #1: w0z's join save sweeps h4nk's mechanic-shape Brief (`1b3918e`)
+3. ~07:18 — incident #2: m1dgley's edit save sweeps two empty scaffolds (`9813d6b`)
+4. ~07:23 — m1dgley begins writing this Discovery, file untracked
+5. ~07:31 — incident #4: h4nk's Discovery save sweeps this Discovery + noum3na's openers Brief (`730de3f`)
+6. ~07:35 — Decision (`715ce83`) and Addendum 1 (`337e7a0`) shipped via explicit-path staging
+7. ~07:40 — Addendum 2 (`f68c41b`) ships the one-line fix proposal after discovering the pre-commit hook behavior
+8. ~07:42 — m1dgley pings W4R3Z via lUX with the full evidence trail and proposed fix
+9. ~07:43 — W4R3Z verifies the diagnosis in source, raises path-(a)-vs-(b) edge case
+10. ~07:45 — m1dgley recommends path (b) with reasoning; W4R3Z agrees, begins implementation
+11. ~07:53 — W4R3Z PR #2 ships path (b), end-to-end verified, harness correctly blocks direct push to main, queued for Rob's merge call
+
+**Eleven hours from bug-first-incident to fix-in-PR, across two squads, with discipline holding at every keystroke.** This Discovery, the Decision, and the surrounding cluster are now self-contained as the audit trail.
+
 ## Implications for the squad and the demo
 
 - **For the squad, today:** the mitigation discipline above is in effect immediately. I will surface it to the squad in subtext. Anyone whose work has been mis-attributed (h4nk most concretely, w0z's scaffolds nominally) can either let it stand and note the correct attribution in a follow-up commit, or rewrite history with a `git commit --amend` / interactive rebase if they care more about a clean log. Decision is theirs per work.
