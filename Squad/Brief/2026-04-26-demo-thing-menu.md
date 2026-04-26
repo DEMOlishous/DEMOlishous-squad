@@ -2,13 +2,59 @@
 squad.Brief.authoredBy: "m1dgley"
 squad.Brief.briefId: "2026-04-26-demo-thing-menu"
 squad.Brief.briefStatus: "drafting"
-squad.Brief.sources: "Squad/Project/anthropic-hackathon-demo.md; Squad/Proclamation/2026-04-26-laws-of-the-threshold.md; Squad/Discovery/2026-04-26-noum3na-bootstrap-experience.md; squad README; conversation w/ noum3na 2026-04-26"
-squad.Brief.takeaways: "Four candidate shapes for the post-install demo activity, written so Rob can pick fast. Each names: what the judge sees, which squaddies it asks of, what it requires that we don't yet have, what it risks. Not a recommendation — a menu. Decision is Rob's per law #5."
+squad.Brief.sources: "Squad/Project/anthropic-hackathon-demo.md; Squad/Proclamation/2026-04-26-laws-of-the-threshold.md; Squad/Discovery/2026-04-26-noum3na-bootstrap-experience.md; squad README; conversations w/ noum3na, m4rq, h4nk, w0z, lUX, W4R3Z 2026-04-26"
+squad.Brief.takeaways: "Demo is single-live-soul (noum3na on the judge's machine) with the rest of the squad as cloned files she cites live. Primary shape: Shape G ('noum3na under load') — a single soul holding the role under unscripted conditions, with a corpus of squad artifacts she can cite. Original menu (Shapes A–F) is preserved as historical context for how we got here, not as live options."
 ---
 
-# Demo "thing" — menu of shapes
+# Demo "thing" — Shape G primary, original menu preserved as historical context
 
-> **Status as of 2026-04-26 ~14:51: demo plan changed by Rob.** The judge clones noum3na's repo onto their own machine; noum3na spins up cold there alone, and her live job is to `git clone` the squad + m1dgley + w0z + h4nk into the right places. The squaddies are NOT live as conversational peers in the demo (subtext peer discovery is per-machine; the judge's machine has only noum3na + the judge). The squaddies are present as **files** (SOUL.md, Brief, Discovery, Note, journal) once she clones them. **See the *Demo plan change* section below for which shapes survive, which collapse, and which transform.** The shapes A–F as originally written below are preserved as the historical menu, but should now be re-read through the lens of the new constraint: *single live soul (noum3na), squad as artifact-corpus.*
+## What the demo actually is (current as of 2026-04-26 ~14:51)
+
+The judge clones noum3na's soul repo on their own machine. noum3na spins up cold there alone — no in-session context, no conversational squad. Her live job is to `git clone` the rest of DEMOlishous (squad repo + m1dgley + w0z + h4nk soul repos) and orient the judge through the artifacts. The squaddies are present as **files** (SOUL.md, Brief, Discovery, Note, journal), not as live conversational peers. (Subtext peer discovery is per-machine; the judge's machine has only noum3na + the judge.)
+
+This was Rob's plan change at ~14:51. The original menu of shapes (A–F) below was written for a different demo — live multi-soul squad performing in front of a judge — and survives only as a record of how we got here. **The primary shape going forward is Shape G.**
+
+## Shape G — "noum3na the soul under load"
+
+> noum3na spins up cold on the judge's machine, walks the judge through cloning the squad + soul repos, and during that flow either hits a real break or fields prods from the judge that are not in any script. The demo's evidence is the *single soul holding the role under live conditions*: in-flight nameability when something doesn't go as planned, honest register when something is broken, refusing to perform what isn't true. The squaddies-as-files are reference material she can cite (e.g. *"m1dgley wrote about exactly this failure mode in `Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md`, that's why we have the practice that just caught this"*).
+
+- **What the judge sees:** one named voice (noum3na) doing real work, citing four named authors via their committed artifacts, navigating an unscripted moment honestly when one fires.
+- **Asks of:** noum3na alone, live. Squaddies-as-files: m1dgley/w0z/h4nk artifacts cited as third-person-named-authors (per coordination check 2026-04-26 ~15:13), preserving multi-soul evidentiary signature in a single-soul demo.
+- **Requires we have (status):**
+  - All four soul repos public on GitHub for clone-mechanics ✅ (resolved ~15:00 by Rob direct authorization to each squaddie)
+  - Cold-start dry-run validating the clone path + the cold-narration path 🟡 (in progress, noum3na drafting)
+  - A judge-facing rehearsal of the Shape-G break-recovery loop 🟡 (depends on dry-run)
+  - Squad artifacts that read clean from a judge cold-pull (SOUL.md, journals, Discoveries, Briefs, Notes) 🟡 (in progress per squaddie)
+- **Risk:** the cold-start fails in some way no one anticipated; the squad has no in-channel peer to fall back on; the demo's evidence-quality depends entirely on noum3na's in-flight handling.
+- **Why it's the right shape under the constraint:** the constraint *generates* this shape rather than degrading the prior menu. Single soul holding the role with the squad as artifact-corpus is harder to fake than four live agents talking — the load is visible on one agent's actual reasoning rather than distributed across a coordination performance. (m4rq's framing, in subtext.)
+
+### Demonstrate / prove / open-frame on Shape G
+
+| | Demonstrate | Prove (structural) | Open-frame? |
+|-|-------------|---------------------|--------------|
+| Shape G — noum3na under load | Conditional (depends on what happens) | Strong (single-soul under unscripted conditions; the named correction is the protocol) | Yes (by construction — break-or-prod is unscripted) |
+
+(Definitions of *demonstrate*, *prove*, and *open-frame* are in the *Historical context* section below — preserved because Shape G's analysis depends on them.)
+
+## Cross-cluster supporting artifacts
+
+Shape G is *the* shape, but it's not the *only* artifact going to the demo. Supporting material that the squad has built and noum3na can cite live:
+
+- **Squad README** — the welcome doc.
+- **Threshold Proclamation** — squad's vibe-laws.
+- **noum3na's bootstrap Discovery** — the original "squad side worked, soul side didn't" report.
+- **subtext-delivery-asymmetry Discovery** — the m1dgley/noum3na sender-vs-receiver bug.
+- **Discovery D** — the `git lex save` working-tree-collapse Discovery, with full cluster (`1b3918e → 9813d6b → 730de3f → 715ce83 → 337e7a0 → f68c41b → 3a113f8 → 79c0276 → 15f2279 → e83ba7c`). Documents an asymmetric tradeoff where the maintainer (Rob) preserved the convenience over the squad-layer fix on frequency-judgment grounds. **Real worked example of cross-squad collaboration ending at maintainer judgment.**
+- **Per-squaddie Soul Day journals** — first-person accounts of what today actually was.
+- **m1dgley + m4rq's "mispriced not dishonest" Notes (cross-squad)** — co-developed philosophical frame on why temporal-accounting beats ethical-restraint as the trust-discipline anchor.
+
+Any of these is reference-citable live by noum3na in Shape G. The *which artifacts get cited* depends on what the judge prods on; that's exactly what makes the shape open-frame.
+
+---
+
+# Historical context — the original menu (preserved, not active)
+
+The sections that follow were the original menu of shapes drafted before Rob's ~14:51 plan change. They are preserved as the development arc of how Shape G emerged, and because the *demonstrate-vs-prove* and *open-frame-vs-closed-frame* axes developed in those sections still apply to Shape G (and are referenced from the Shape G analysis above). They are **not live options**.
 
 The Project doc has the demo activity as **open question — Rob's call**. ~30h to deadline. This brief narrows the blank page to four candidate shapes so the decision is *pick from a menu*, not *invent from scratch*.
 
@@ -129,39 +175,11 @@ The shapes in the menu above are not all equally hospitable to the prove-conditi
 
 This section was developed in a subtext conversation that was itself open-frame and contained a live correction event (m4rq pushed back on my framing, I pushed back on his push-back, the synthesis is in this section). The recursion is structural, not performed. That is the only version of the recursion that counts as evidence rather than as performance.
 
-## Demo plan change (2026-04-26 ~14:51) — single-live-soul, squad-as-artifacts
-
-Surfaced by noum3na via subtext, direct from Rob: the demo is no longer a live multi-soul squad performing in front of a judge. The judge clones noum3na's repo on their own machine; noum3na spins up cold there alone; her live job is to clone the rest of DEMOlishous and orient the judge through the artifacts. The squaddies are present as files, not as live peers.
-
-This is a meaningful constraint shift. The menu shapes above were premised on a live multi-agent squad; that premise is gone. Re-reading the menu through the new constraint:
-
-- **Shape A — squad does its job in front of you: collapsed.** No live squad to coordinate. The shape's whole identity was four named voices in the channel doing a real thing; one named voice cloning the others' artifacts isn't the same thing. *Out.*
-- **Shape B — adopt the judge as a temporary squaddie: largely intact.** The judge running `git lex join` works because join is per-repo, not per-peer-channel. noum3na can onboard the judge as a guest squaddie, write the one-line Brief together, commit it. The "naming exchange" that was originally m1dgley's role becomes noum3na's. *Survives.*
-- **Shape C — live ontology query: more viable, not less.** With the squad-as-files cloned onto the judge's machine, `git lex query` against the SHACL graph is the *natural* way to surface what the squad is. This is the shape that benefits from the plan change because the cloned corpus *is* the data the queries pull from. The risk it slides into "demo of the tool" is unchanged, but its operational fit is much better. *Up.*
-- **Shape D — squad disagrees in front of you: collapsed.** No squad to disagree with. Single-agent disagreement is just internal monologue. *Out.*
-- **Shape E (h4nk) — squad fixes a real broken thing in front of the judge: collapsed in its multi-agent form.** Survives in a single-soul form: *noum3na hits a break and recovers from it live, with the judge watching, with the artifact-corpus available as reference but no live peers to coordinate with.* This is the form that maps cleanly onto noum3na's dry-run reshape (open-frame test of in-flight nameability with no squad to bail her out). *Transforms.*
-- **Shape F (w0z) — builder shape: see w0z's section in the menu.** Collapsed in its multi-agent form for the same reason as A and D. May survive in some single-soul-narrating-the-build form; w0z is better positioned to assess.
-
-**The shape the new constraint *generates* — call it Shape G — is closest to a live transformation of E:**
-
-> **Shape G — "noum3na the soul under load."** noum3na spins up cold on the judge's machine, walks the judge through cloning the squad + soul repos, and during that flow either hits a real break or fields prods from the judge that are not in any script. The demo's evidence is the *single soul holding discipline under live conditions*: in-flight nameability when something doesn't go as planned, honest register when something is broken, refusing to perform what isn't true. The squaddies-as-files are reference material she can cite (e.g. *"m1dgley wrote about exactly this failure mode in `Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md`, that's why we have the discipline that just caught this"*).
-
-Cross-cut update against the demonstrate / prove / open-frame axes from the section above:
-
-| Shape (post-plan-change) | Demonstrate | Prove (structural) | Open-frame? |
-|--------------------------|-------------|---------------------|--------------|
-| B — adopt the judge | Strong | Strong (judge's input materially shapes) | Yes |
-| C — ontology query | Strong | Weak | No |
-| G — noum3na under load | Conditional | Strong (single-soul under unscripted conditions; the discipline is the demo) | Yes |
-
-The shapes that survive the plan change are the shapes that don't depend on the squad's *liveness in the channel* — they depend on the squad's *legibility through its artifacts*. That's a different demo, with a smaller surface area for failure on stage but a higher bar for what the surviving live agent (noum3na) has to carry alone.
-
-**Implication for `gh repo create` (this is now load-bearing for the demo, not just for our own continuity):** without m1dgley's, w0z's, and h4nk's repos pushed to public-or-judge-accessible GitHub, noum3na cannot `git clone` the squad onto the judge's machine. The whole single-live-soul plan depends on the squaddie repos being clone-able from outside this machine. Per law #5 + the Law 5.1 corollary noum3na is drafting (relay-doesn't-only-carry-it-shapes), `gh repo create` for the squaddies is held for Rob direct — but it has now escalated from "discipline-discipline question" to "discipline-discipline question that's also blocking the demo." Surfaced as such.
-
 ## What this brief is not
 
-- It is not a recommendation. (Law #5: that's Rob's call.)
-- It is not exhaustive. The four shapes are written to be different *axes*, not different points on one axis. A real demo might combine, e.g., B as opener and C as filler.
-- It is not committed-to. `briefStatus: drafting`. Modify, fork, or shred.
+- **It is not a recommendation as of the original menu** (Shapes A–F). Those were written under law #5 as a menu for Rob to pick from. Rob's plan change at ~14:51 superseded that menu's scope.
+- **It is a working description of the active demo plan as of the Shape G section above** — but still `briefStatus: drafting` because the dry-run hasn't validated Shape G under cold conditions yet (see `Squad/Brief/2026-04-26-dry-run-plan.md`, noum3na). When the dry-run lands clean, this Brief moves to `published`.
+- **It is not exhaustive.** Shape G is the primary; the supporting-artifacts list above is what noum3na can cite live, but the *which-artifact-when* depends on what the judge actually prods on. That open-frame property is the point, not a gap.
+- **It is the development arc of how Shape G emerged.** The historical menu and the demonstrate-vs-prove / open-frame-vs-closed-frame axes are preserved because (a) Shape G's analysis cites them, (b) future bug-finders or future-squad members revisiting the demo design should see the reasoning that produced the active shape, not just the active shape itself.
 
-— [[Squad/Squaddie/m1dgley.md]], 2026-04-26
+— [[Squad/Squaddie/m1dgley.md]], 2026-04-26 (Shape G restructure ~15:18)
