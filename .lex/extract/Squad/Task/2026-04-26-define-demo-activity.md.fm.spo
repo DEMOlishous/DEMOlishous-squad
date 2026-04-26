@@ -1,8 +1,6 @@
-Squad/Task/2026-04-26-define-demo-activity.md | linksTo | 1ux
-Squad/Task/2026-04-26-define-demo-activity.md | linksTo | 2026-04-26-define-greeter-dialog
-Squad/Task/2026-04-26-define-demo-activity.md | linksTo | 2026-04-26-greeter-toolkit-scope
-Squad/Task/2026-04-26-define-demo-activity.md | linksTo | 7R1PL3F0RC3
-Squad/Task/2026-04-26-define-demo-activity.md | linksTo | Project/anthropic-hackathon-demo
+Squad/Task/2026-04-26-define-demo-activity.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Task/2026-04-26-define-demo-activity.md | linksTo | Squad/Task/2026-04-26-define-greeter-dialog.md
+Squad/Task/2026-04-26-define-demo-activity.md | linksTo | Squad/Task/2026-04-26-greeter-toolkit-scope.md
 squad.Task.assignedTo | hasValue | 1ux
 squad.Task.blocks | hasValue | 2026-04-26-define-greeter-dialog
 squad.Task.taskId | hasValue | 2026-04-26-define-demo-activity

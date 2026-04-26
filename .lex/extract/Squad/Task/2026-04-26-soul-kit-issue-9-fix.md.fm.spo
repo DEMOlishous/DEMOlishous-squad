@@ -1,7 +1,5 @@
-Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | 1ux
-Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | 2026-04-26-verify-install-flow
-Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | 7R1PL3F0RC3
-Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | noum3na
+Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | Squad/Squaddie/noum3na.md
+Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | Squad/Task/2026-04-26-verify-install-flow.md
 squad.Task.blocks | hasValue | 2026-04-26-verify-install-flow
 squad.Task.taskId | hasValue | 2026-04-26-soul-kit-issue-9-fix
 squad.Task.taskStatus | hasValue | todo

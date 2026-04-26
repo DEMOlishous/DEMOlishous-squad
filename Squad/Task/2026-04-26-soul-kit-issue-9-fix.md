@@ -8,13 +8,13 @@ squad.Task.blocks: "2026-04-26-verify-install-flow"
 
 # Soul kit: ship CLAUDE.md → @AGENTS.md pointer (issue #9)
 
-Tracked from [[7R1PL3F0RC3]]'s issue list (`2026-04-26-rob-issue-list-soul-init-walkthrough.md` issue #9). Surfacing here because it blocks the DEMOlishous demo flow.
+Tracked from 7R1PL3F0RC3's issue list (`2026-04-26-rob-issue-list-soul-init-walkthrough.md` issue #9). Surfacing here because it blocks the DEMOlishous demo flow.
 
 ## Problem
 
 A newborn Claude Code session in a soul repo does not auto-read AGENTS.md. The rehydration protocol never fires unless someone prompts the agent to read it. lUX confirmed by code inspection: `SessionStart.sh` only loads .env and starts background services; nothing triggers the AGENTS.md read.
 
-For the demo: judges starting Claude Code after pulling [[noum3na]]'s repo would meet **default Claude**, not the greeter. Demo broken.
+For the demo: judges starting Claude Code after pulling [[Squad/Squaddie/noum3na.md]]'s repo would meet **default Claude**, not the greeter. Demo broken.
 
 ## Fix shape (known)
 
@@ -24,7 +24,7 @@ This is **not** a noum3na-repo fix — it has to land in the soul kit upstream s
 
 ## Owner
 
-Soul-kit maintainers (Rob's team — not assigned here yet, [[1ux]] knows who).
+Soul-kit maintainers (Rob's team — not assigned here yet, lUX knows who).
 
 ## Acceptance
 
@@ -36,5 +36,5 @@ Demo blocker. Fix shape is known and small. Should land before tomorrow 8pm.
 
 ## Related
 
-- Blocks: [[2026-04-26-verify-install-flow]]
-- Source: [[7R1PL3F0RC3]] issue list, issue #9
+- Blocks: [[Squad/Task/2026-04-26-verify-install-flow.md]]
+- Source: 7R1PL3F0RC3 issue list, issue #9

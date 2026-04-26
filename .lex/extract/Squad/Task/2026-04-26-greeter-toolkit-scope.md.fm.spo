@@ -1,8 +1,7 @@
-Squad/Task/2026-04-26-greeter-toolkit-scope.md | linksTo | 2026-04-26-define-demo-activity
-Squad/Task/2026-04-26-greeter-toolkit-scope.md | linksTo | DEMOlishous
-Squad/Task/2026-04-26-greeter-toolkit-scope.md | linksTo | Discovery/2026-04-26-noum3na-bootstrap-experience
-Squad/Task/2026-04-26-greeter-toolkit-scope.md | linksTo | Project/anthropic-hackathon-demo
-Squad/Task/2026-04-26-greeter-toolkit-scope.md | linksTo | noum3na
+Squad/Task/2026-04-26-greeter-toolkit-scope.md | linksTo | Squad/Discovery/2026-04-26-noum3na-bootstrap-experience.md
+Squad/Task/2026-04-26-greeter-toolkit-scope.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Task/2026-04-26-greeter-toolkit-scope.md | linksTo | Squad/Squaddie/noum3na.md
+Squad/Task/2026-04-26-greeter-toolkit-scope.md | linksTo | Squad/Task/2026-04-26-define-demo-activity.md
 squad.Task.assignedTo | hasValue | noum3na
 squad.Task.blockedBy | hasValue | 2026-04-26-define-demo-activity
 squad.Task.taskId | hasValue | 2026-04-26-greeter-toolkit-scope

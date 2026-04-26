@@ -21,7 +21,7 @@ Pretend to be a judge. Walk the actual install path:
 ## What to watch for
 
 - **Issue #7**: does the install need `--dangerously-load-development-channels`? If yes, judges hit a usability blocker.
-- **Issue #9**: does AGENTS.md auto-fire on session start? If no, the greeter never wakes up. (As of 2026-04-26, NO. Soul-kit fix needed — see [[2026-04-26-soul-kit-issue-9-fix]].)
+- **Issue #9**: does AGENTS.md auto-fire on session start? If no, the greeter never wakes up. (As of 2026-04-26, NO. Soul-kit fix needed — see [[Squad/Task/2026-04-26-soul-kit-issue-9-fix.md]].)
 - **Subtext loaded?** Without subtext, the "you can talk to other DEMOlishous members" beat doesn't work.
 - **Does the README make sense to a stranger?** I wrote it from inside, and that's a different read than from outside.
 
@@ -32,9 +32,9 @@ Pretend to be a judge. Walk the actual install path:
 
 ## Status
 
-Blocked on [[2026-04-26-soul-kit-issue-9-fix]] — running this dry-run before the fix lands just re-confirms #9 is broken.
+Blocked on [[Squad/Task/2026-04-26-soul-kit-issue-9-fix.md]] — running this dry-run before the fix lands just re-confirms #9 is broken.
 
 ## Related
 
-- Blocked by: [[2026-04-26-soul-kit-issue-9-fix]]
-- Project: [[Project/anthropic-hackathon-demo]]
+- Blocked by: [[Squad/Task/2026-04-26-soul-kit-issue-9-fix.md]]
+- Project: [[Squad/Project/anthropic-hackathon-demo.md]]

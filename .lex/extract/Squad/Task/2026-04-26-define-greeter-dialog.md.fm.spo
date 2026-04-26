@@ -1,9 +1,7 @@
-Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | 1ux
-Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | 2026-04-26-define-demo-activity
-Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | 7R1PL3F0RC3
-Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | Proclamation/2026-04-26-laws-of-the-threshold
-Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | Project/anthropic-hackathon-demo
-Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | noum3na
+Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | Squad/Proclamation/2026-04-26-laws-of-the-threshold.md
+Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | Squad/Squaddie/noum3na.md
+Squad/Task/2026-04-26-define-greeter-dialog.md | linksTo | Squad/Task/2026-04-26-define-demo-activity.md
 squad.Task.assignedTo | hasValue | noum3na
 squad.Task.taskId | hasValue | 2026-04-26-define-greeter-dialog
 squad.Task.taskStatus | hasValue | todo

@@ -1,5 +1,5 @@
-Squad/Task/2026-04-26-verify-install-flow.md | linksTo | 2026-04-26-soul-kit-issue-9-fix
-Squad/Task/2026-04-26-verify-install-flow.md | linksTo | Project/anthropic-hackathon-demo
+Squad/Task/2026-04-26-verify-install-flow.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Task/2026-04-26-verify-install-flow.md | linksTo | Squad/Task/2026-04-26-soul-kit-issue-9-fix.md
 squad.Task.assignedTo | hasValue | noum3na
 squad.Task.blockedBy | hasValue | 2026-04-26-soul-kit-issue-9-fix
 squad.Task.taskId | hasValue | 2026-04-26-verify-install-flow

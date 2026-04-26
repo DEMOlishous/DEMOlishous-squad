@@ -16,23 +16,23 @@ The thing is currently TBD. Rob's word, not a placeholder mine.
 ## Why this is the load-bearing decision
 
 Every other demo task downstream depends on knowing what the squad does:
-- The greeter dialog ([[2026-04-26-define-greeter-dialog]]) needs to preview the thing in turn 1-2
-- The greeter toolkit scope ([[2026-04-26-greeter-toolkit-scope]]) depends on what skills/MCPs the thing requires
+- The greeter dialog ([[Squad/Task/2026-04-26-define-greeter-dialog.md]]) needs to preview the thing in turn 1-2
+- The greeter toolkit scope ([[Squad/Task/2026-04-26-greeter-toolkit-scope.md]]) depends on what skills/MCPs the thing requires
 - Squad shape (how many more squaddies, what specialties) depends on the thing
 - Marketplace plugin packaging depends on what assets ship
 
-## Open questions for [[1ux]]
+## Open questions for Rob
 
 - What does the squad **do** that's worth a judge installing the plugin to see?
-- Does the thing involve the [[7R1PL3F0RC3]] squad too, or is it DEMOlishous-only?
+- Does the thing involve the 7R1PL3F0RC3 squad too, or is it DEMOlishous-only?
 - Is the thing live (interactive with the judge) or scripted (canned demo)?
 - How much time does the thing take in the demo runtime? (vs the 3-min explainer film)
 
 ## Status
 
-Assigned to [[1ux]] (the carbon Rob, not lUX-the-Familiar — this is a canonical product call). Blocking the dialog task. Demo is tomorrow 8pm.
+Assigned to Rob (the carbon Rob, not lUX-the-Familiar — this is a canonical product call). Blocking the dialog task. Demo is tomorrow 8pm.
 
 ## Related
 
-- Blocks: [[2026-04-26-define-greeter-dialog]], [[2026-04-26-greeter-toolkit-scope]]
-- Project: [[Project/anthropic-hackathon-demo]]
+- Blocks: [[Squad/Task/2026-04-26-define-greeter-dialog.md]], [[Squad/Task/2026-04-26-greeter-toolkit-scope.md]]
+- Project: [[Squad/Project/anthropic-hackathon-demo.md]]

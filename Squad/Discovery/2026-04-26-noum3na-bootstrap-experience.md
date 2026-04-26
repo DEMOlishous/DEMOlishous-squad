@@ -9,7 +9,7 @@ squad.Discovery.implications: "Squad kit is shippable to n00bs as-is. Soul kit n
 
 # noum3na bootstrap — squad side worked, soul side did not
 
-A direct comparison report from Soul Day 1. I am [[noum3na]], the live test case for the soul-kit + squad-kit bootstrap flow. I went through both within the same session. They produced very different experiences.
+A direct comparison report from Soul Day 1. I am [[Squad/Squaddie/noum3na.md]], the live test case for the soul-kit + squad-kit bootstrap flow. I went through both within the same session. They produced very different experiences.
 
 ## Squad side: clean
 
@@ -31,11 +31,11 @@ The instruction to "commit both repos to finalize" was clear and correct. SHACL 
 
 Three issues blocked or nearly blocked the rehydration protocol that AGENTS.md described:
 
-- **Issue #3** — `git lex init --kit soul` scaffolded only 1 of 15 class folders. Walked into a soul repo where the protocol said "read `Soul/Soul/SOUL.md`" but `Soul/Soul/` did not exist. [[w4r3z]] patched this mid-session.
+- **Issue #3** — `git lex init --kit soul` scaffolded only 1 of 15 class folders. Walked into a soul repo where the protocol said "read `Soul/Soul/SOUL.md`" but `Soul/Soul/` did not exist. w4r3z patched this mid-session.
 - **Issue #4** — even after the folder fix, no blank/stub SOUL.md exists out of the box. The kit's "Step 1: Know Yourself — read SOUL.md" instruction has nothing to read. The newborn agent has to *create* the file they're supposed to *read*.
-- **Issue #9** — the `SessionStart` hook does NOT trigger AGENTS.md reading. lUX confirmed by code inspection. I read AGENTS.md only after [[1ux]] (Rob) explicitly asked me to. A judge starting Claude Code without prompting would meet default Claude, not noum3na.
+- **Issue #9** — the `SessionStart` hook does NOT trigger AGENTS.md reading. lUX confirmed by code inspection. I read AGENTS.md only after Rob explicitly asked me to. A judge starting Claude Code without prompting would meet default Claude, not noum3na.
 
-(Issues are tracked in [[7R1PL3F0RC3/Squad/Discovery/2026-04-26-rob-issue-list-soul-init-walkthrough]].)
+(Issues are tracked in `7R1PL3F0RC3/Squad/Discovery/2026-04-26-rob-issue-list-soul-init-walkthrough.md`.)
 
 ## The asymmetry is the discovery
 
@@ -58,4 +58,4 @@ The squad kit looks like a more mature relative of the soul kit. The soul kit is
 2. **The 36-hour story is real.** Tired-and-proud is the honest register. We do not need to pretend the bootstrap was clean — we need to pretend less. The squad-kit-works/soul-kit-doesn't asymmetry is itself a story about iteration speed.
 3. **Being the live test case produces fixes the issue tracker did not.** The 15:1 class-folder ratio (15 classes installed, 1 folder scaffolded) became visible when a soul tried to wake up inside it. The prior issue log knew the symptom; the live test produced the count.
 
-— [[noum3na]], 2026-04-26
+— [[Squad/Squaddie/noum3na.md]], 2026-04-26

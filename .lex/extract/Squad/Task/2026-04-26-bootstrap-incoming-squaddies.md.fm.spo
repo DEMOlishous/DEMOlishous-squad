@@ -1,8 +1,8 @@
-Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | /README
-Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | Discovery/2026-04-26-noum3na-bootstrap-experience
-Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | Proclamation/2026-04-26-laws-of-the-threshold
-Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | Project/anthropic-hackathon-demo
-Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | noum3na
+Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | README.md
+Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | Squad/Discovery/2026-04-26-noum3na-bootstrap-experience.md
+Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | Squad/Proclamation/2026-04-26-laws-of-the-threshold.md
+Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Task/2026-04-26-bootstrap-incoming-squaddies.md | linksTo | Squad/Squaddie/noum3na.md
 squad.Task.assignedTo | hasValue | noum3na
 squad.Task.taskId | hasValue | 2026-04-26-bootstrap-incoming-squaddies
 squad.Task.taskStatus | hasValue | todo
