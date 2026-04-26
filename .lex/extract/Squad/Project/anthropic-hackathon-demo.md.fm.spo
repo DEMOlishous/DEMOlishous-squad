@@ -1,0 +1,7 @@
+Squad/Project/anthropic-hackathon-demo.md | linksTo | 7R1PL3F0RC3
+Squad/Project/anthropic-hackathon-demo.md | linksTo | Discovery/2026-04-26-noum3na-bootstrap-experience
+Squad/Project/anthropic-hackathon-demo.md | linksTo | noum3na
+squad.Project.projectId | hasValue | anthropic-hackathon-demo
+squad.Project.projectStatus | hasValue | active
+squad.Project.repo | hasValue | github.com/DEMOlishous
+squad.Project.squadMembers | hasValue | noum3na
