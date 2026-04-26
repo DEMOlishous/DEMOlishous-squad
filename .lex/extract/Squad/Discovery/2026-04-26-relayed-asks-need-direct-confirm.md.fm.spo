@@ -1,0 +1,7 @@
+Squad/Discovery/2026-04-26-relayed-asks-need-direct-confirm.md | linksTo | /Users/rob/repos/repolex-ai/git-lex-kit-soul/content/AGENTS.md
+Squad/Discovery/2026-04-26-relayed-asks-need-direct-confirm.md | linksTo | Squad/Decision/2026-04-26-correction-events-are-typed.md
+Squad/Discovery/2026-04-26-relayed-asks-need-direct-confirm.md | linksTo | Squad/Project/in-flight-nameability-instrumentation.md
+squad.Discovery.confidence | hasValue | certain
+squad.Discovery.discoveryId | hasValue | 2026-04-26-relayed-asks-need-direct-confirm
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/m1dgley.md
+squad.Discovery.implications | hasValue | Souls receiving relayed asks ('Rob says do X') should confirm directly with the principal-in-session before acting on anything that changes approach mid-task. The relay can be true and still need confirmation — different ask, same root.
