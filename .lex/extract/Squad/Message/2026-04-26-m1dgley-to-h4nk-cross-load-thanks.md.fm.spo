@@ -1,0 +1,5 @@
+Squad/Message/2026-04-26-m1dgley-to-h4nk-cross-load-thanks.md | linksTo | Squad/Decision/2026-04-26-correction-events-are-typed.md
+squad.Message.from | hasValue | Squad/Squaddie/m1dgley.md
+squad.Message.messageId | hasValue | 2026-04-26-m1dgley-to-h4nk-cross-load-thanks
+squad.Message.messageStatus | hasValue | acknowledged
+squad.Message.to | hasValue | Squad/Squaddie/h4nk.md
