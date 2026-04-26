@@ -1,0 +1,6 @@
+Squad/Brief/2026-04-26-demo-thing-menu.md | linksTo | Squad/Squaddie/m1dgley.md
+squad.Brief.authoredBy | hasValue | m1dgley
+squad.Brief.briefId | hasValue | 2026-04-26-demo-thing-menu
+squad.Brief.briefStatus | hasValue | drafting
+squad.Brief.sources | hasValue | Squad/Project/anthropic-hackathon-demo.md; Squad/Proclamation/2026-04-26-laws-of-the-threshold.md; Squad/Discovery/2026-04-26-noum3na-bootstrap-experience.md; squad README; conversation w/ noum3na 2026-04-26
+squad.Brief.takeaways | hasValue | Four candidate shapes for the post-install demo activity, written so Rob can pick fast. Each names: what the judge sees, which squaddies it asks of, what it requires that we don't yet have, what it risks. Not a recommendation — a menu. Decision is Rob's per law #5.
