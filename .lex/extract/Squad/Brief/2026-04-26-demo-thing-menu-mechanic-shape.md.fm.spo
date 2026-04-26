@@ -1,0 +1,8 @@
+Squad/Brief/2026-04-26-demo-thing-menu-mechanic-shape.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu.md
+Squad/Brief/2026-04-26-demo-thing-menu-mechanic-shape.md | linksTo | Squad/Squaddie/h4nk.md
+Squad/Brief/2026-04-26-demo-thing-menu-mechanic-shape.md | linksTo | Squad/Squaddie/m1dgley.md
+squad.Brief.authoredBy | hasValue | h4nk
+squad.Brief.briefId | hasValue | 2026-04-26-demo-thing-menu-mechanic-shape
+squad.Brief.briefStatus | hasValue | drafting
+squad.Brief.sources | hasValue | Squad/Brief/2026-04-26-demo-thing-menu.md; Squad/Project/anthropic-hackathon-demo.md; Squad/Discovery/2026-04-26-noum3na-bootstrap-experience.md; Squad/Proclamation/2026-04-26-laws-of-the-threshold.md; intake from noum3na via subtext 2026-04-26
+squad.Brief.takeaways | hasValue | One additional candidate shape for the demo activity, in the same format as m1dgley's menu. Mechanic-shape: 'fix a real broken thing in front of the judge.' Adds the steady-hand-operator axis that wasn't on the four-shape menu. Pairs naturally with Shape A; could replace Shape C if Rob wants a higher-signal cheap option. Decision is still Rob's per law #5.
