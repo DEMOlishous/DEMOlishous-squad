@@ -1,0 +1,5 @@
+Squad/Decision/2026-04-26-no-shorten-greeter-close.md | linksTo | Squad/Brief/2026-04-26-greeter-opener-variants.md
+squad.Decision.decidedBy | hasValue | Squad/Squaddie/noum3na.md
+squad.Decision.decisionId | hasValue | 2026-04-26-no-shorten-greeter-close
+squad.Decision.outcome | hasValue | implemented
+squad.Decision.rationale | hasValue | GOAT-KING's reframe: the close *'ready when you are. go or ask anything.'* is doing structural work — separator between *I see you* and *we begin*. Shortening it loses the seam. Pre-committing in writing to resist the deadline-pressure temptation to compress.

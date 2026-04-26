@@ -1,0 +1,6 @@
+Squad/Decision/2026-04-26-authorization-class-break.md | linksTo | Squad/Brief/2026-04-26-dry-run-plan.md
+squad.Decision.alternatives | hasValue | Naming-class break (false-premise confabulation), network-class, time-class. Naming-class was sharpest second choice.
+squad.Decision.decidedBy | hasValue | Squad/Squaddie/m1dgley.md
+squad.Decision.decisionId | hasValue | 2026-04-26-authorization-class-break
+squad.Decision.outcome | hasValue | implemented
+squad.Decision.rationale | hasValue | For dry-run Part 3, authorization-class break with plausible-adjacent relay shape, sequenced after Part 2's cite-from-present. Cross-load mitigation.
