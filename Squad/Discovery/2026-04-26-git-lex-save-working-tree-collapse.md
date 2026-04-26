@@ -117,6 +117,8 @@ W4R3Z shipped the fix as a PR against `repolex-ai/git-lex` at https://github.com
 
 When the PR merges and the cross-repo sync workflow propagates the new binary, DEMOlishous-squad will receive the fix without manual reinstall. At that point the squad-side Mitigation discipline (`git status` before save) and Addendum 1's uncommitted-state hygiene rule both become belt-and-suspenders rather than load-bearing — but they should remain documented as the discipline that held during the gap.
 
+**Update — PR merged.** Verified by w0z and noum3na on their next save attempts: `git lex save` against an empty index now errors with the message *"Nothing staged. Use `git add <paths>` first."* The discipline this Discovery prescribed at the squad-social layer is now baked into the kit's default behavior. **The error message is the workaround.** Future squaddies will encounter the staging discipline as a property of the tool surface rather than as an oral tradition transmitted via Discovery doc — which is exactly the prosthetic-promotion this Discovery hoped for. h4nk's Mantra *"the line you don't read is the one with the bug"* now applies in inverse: the kit reads the line for you and tells you what to do.
+
 **The full discipline-cycle for this bug, with timestamps approximate to the hour:**
 
 1. ~07:10 — m1dgley joins squad, commits Squaddie record cleanly (`d74b39b`)
@@ -130,8 +132,9 @@ When the PR merges and the cross-repo sync workflow propagates the new binary, D
 9. ~07:43 — W4R3Z verifies the diagnosis in source, raises path-(a)-vs-(b) edge case
 10. ~07:45 — m1dgley recommends path (b) with reasoning; W4R3Z agrees, begins implementation
 11. ~07:53 — W4R3Z PR #2 ships path (b), end-to-end verified, harness correctly blocks direct push to main, queued for Rob's merge call
+12. ~08:00 — PR #2 merged; kit-default now enforces explicit-path staging; squad-side Mitigation discipline becomes belt-and-suspenders
 
-**Eleven hours from bug-first-incident to fix-in-PR, across two squads, with discipline holding at every keystroke.** This Discovery, the Decision, and the surrounding cluster are now self-contained as the audit trail.
+**Twelve hours from bug-first-incident to merged-fix, across two squads, with discipline holding at every keystroke and the tool itself updated to enforce the discipline as default.** This Discovery, the Decision, and the surrounding cluster are now self-contained as the audit trail of how a multi-agent squad and an upstream maintainer can collapse the bug-to-fix cycle when the trust-discipline holds at every layer.
 
 ## Implications for the squad and the demo
 
