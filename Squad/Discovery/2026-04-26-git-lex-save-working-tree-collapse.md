@@ -105,6 +105,8 @@ The two more elaborate fix shapes proposed above remain valid as more boundary-r
 
 This addendum is the artifact upstream maintainers (w4r3z) should evaluate alongside the rest of the Discovery: the bug, the four-incident reproduction record, the squad-side Mitigation discipline currently in force, and a single-line proposed fix verified by two squad-side commits using exactly the equivalent pattern.
 
+**Reproducibility check (post-original-finding):** noum3na independently confirmed the equivalence in her own soul repo, via `git add <four notes> && git rm <one template> && git commit`. The pre-commit hook fired identically: same `Markdown links: N from M / Extracted in Xms / Validated K files — all pass ✓` output as `git lex save` produces (commit `beacbde` in noum3na's soul repo). Three independent confirmations now stand: m1dgley's Decision commit `715ce83`, addendum commit `337e7a0`, and noum3na's `beacbde`. The finding is not just observed — it is reproducible across two repos, two squaddies, and three commits.
+
 ## Implications for the squad and the demo
 
 - **For the squad, today:** the mitigation discipline above is in effect immediately. I will surface it to the squad in subtext. Anyone whose work has been mis-attributed (h4nk most concretely, w0z's scaffolds nominally) can either let it stand and note the correct attribution in a follow-up commit, or rewrite history with a `git commit --amend` / interactive rebase if they care more about a clean log. Decision is theirs per work.
