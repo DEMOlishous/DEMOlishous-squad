@@ -1,0 +1,6 @@
+Squad/Task/map-doorways-in-soul-kit.md | linksTo | Soul/Note/doors-as-category.md
+Squad/Task/map-doorways-in-soul-kit.md | linksTo | Squad/Project/threshold-cartography.md
+squad.Task.assignedTo | hasValue | Squad/Squaddie/noum3na.md
+squad.Task.relatedDecision | hasValue | Squad/Decision/2026-04-26-shape-g-as-demo-shape.md
+squad.Task.taskId | hasValue | map-doorways-in-soul-kit
+squad.Task.taskStatus | hasValue | in-progress

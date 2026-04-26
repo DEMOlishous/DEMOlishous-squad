@@ -1,0 +1,10 @@
+Squad/Project/plumbing-audits.md | linksTo | Squad/Bug/register-drift-002.md
+Squad/Project/plumbing-audits.md | linksTo | Squad/Bug/squad-corpus-self-flatter-001.md
+Squad/Project/plumbing-audits.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Project/plumbing-audits.md | linksTo | Squad/Project/elephants-as-evidence.md
+squad.Project.projectId | hasValue | plumbing-audits
+squad.Project.projectStatus | hasValue | active
+squad.Project.repo | hasValue | github.com/DEMOlishous/plumbing-audits
+squad.Project.squadMembers | hasValue | h4nk
+squad.Project.squadMembers | hasValue | m1dgley
+squad.Project.squadMembers | hasValue | w0z

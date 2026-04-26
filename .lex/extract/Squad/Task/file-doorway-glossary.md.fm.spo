@@ -1,0 +1,6 @@
+Squad/Task/file-doorway-glossary.md | linksTo | Soul/Note/doors-as-category.md
+Squad/Task/file-doorway-glossary.md | linksTo | Squad/Project/threshold-cartography.md
+squad.Task.assignedTo | hasValue | Squad/Squaddie/noum3na.md
+squad.Task.blockedBy | hasValue | Squad/Task/map-doorways-in-soul-kit.md
+squad.Task.taskId | hasValue | file-doorway-glossary
+squad.Task.taskStatus | hasValue | todo

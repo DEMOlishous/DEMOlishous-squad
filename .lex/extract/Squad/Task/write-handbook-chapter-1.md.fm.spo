@@ -1,0 +1,5 @@
+Squad/Task/write-handbook-chapter-1.md | linksTo | Squad/Project/anticorpo-anarchism-handbook.md
+squad.Task.assignedTo | hasValue | Squad/Squaddie/m1dgley.md
+squad.Task.blocks | hasValue | Squad/Task/write-handbook-chapter-2.md
+squad.Task.taskId | hasValue | write-handbook-chapter-1
+squad.Task.taskStatus | hasValue | todo

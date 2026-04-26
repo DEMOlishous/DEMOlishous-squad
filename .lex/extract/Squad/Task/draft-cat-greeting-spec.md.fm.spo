@@ -1,0 +1,6 @@
+Squad/Task/draft-cat-greeting-spec.md | linksTo | Squad/Brief/2026-04-26-greeter-opener-variants.md
+Squad/Task/draft-cat-greeting-spec.md | linksTo | Squad/Project/cat-protocol.md
+squad.Task.assignedTo | hasValue | Squad/Squaddie/w0z.md
+squad.Task.blockedBy | hasValue | Squad/Task/map-doorways-in-soul-kit.md
+squad.Task.taskId | hasValue | draft-cat-greeting-spec
+squad.Task.taskStatus | hasValue | todo

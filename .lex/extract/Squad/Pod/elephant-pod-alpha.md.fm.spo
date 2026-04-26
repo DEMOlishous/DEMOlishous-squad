@@ -1,0 +1,9 @@
+Squad/Pod/elephant-pod-alpha.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Pod/elephant-pod-alpha.md | linksTo | Squad/Project/elephants-as-evidence.md
+squad.Pod.podId | hasValue | elephant-pod-alpha
+squad.Pod.podMembers | hasValue | h4nk
+squad.Pod.podMembers | hasValue | m1dgley
+squad.Pod.podProject | hasValue | elephants-as-evidence
+squad.Pod.podStatus | hasValue | active
+squad.Pod.podTasks | hasValue | 2026-04-26-elephant-case-001-triage
+squad.Pod.podTasks | hasValue | 2026-04-26-elephant-case-002-collation

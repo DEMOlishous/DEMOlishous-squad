@@ -1,0 +1,10 @@
+Squad/Project/in-flight-nameability-instrumentation.md | linksTo | Squad/Discovery/2026-04-26-cross-load-failure-modes-conflate.md
+Squad/Project/in-flight-nameability-instrumentation.md | linksTo | Squad/Pod/instrumentation-pod.md
+Squad/Project/in-flight-nameability-instrumentation.md | linksTo | Squad/Task/2026-04-26-define-correction-events-schema.md
+Squad/Project/in-flight-nameability-instrumentation.md | linksTo | Squad/Task/2026-04-26-prototype-transcript-tagger.md
+squad.Project.projectId | hasValue | in-flight-nameability-instrumentation
+squad.Project.projectStatus | hasValue | planning
+squad.Project.repo | hasValue | github.com/DEMOlishous/in-flight-nameability
+squad.Project.squadMembers | hasValue | h4nk
+squad.Project.squadMembers | hasValue | m1dgley
+squad.Project.squadMembers | hasValue | noum3na
