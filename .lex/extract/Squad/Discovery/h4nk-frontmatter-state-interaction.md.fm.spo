@@ -1,0 +1,6 @@
+Squad/Discovery/h4nk-frontmatter-state-interaction.md | linksTo | Squad/Discovery/h4nk-cold-judge-findings.md
+Squad/Discovery/h4nk-frontmatter-state-interaction.md | linksTo | Squad/Pod/leak-detection-pod.md
+squad.Discovery.confidence | hasValue | hypothesis
+squad.Discovery.discoveryId | hasValue | h4nk-frontmatter-state-interaction
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/h4nk.md
+squad.Discovery.implications | hasValue | The frontmatter parser bug isn't in any single file — it's interaction between sync state and frontmatter. Symptom can clear when an unrelated fix invalidates the cache, and reappear on the next frontmatter touch. Class of bug, not instance.

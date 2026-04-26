@@ -1,0 +1,4 @@
+squad.Discovery.confidence | hasValue | likely
+squad.Discovery.discoveryId | hasValue | 2026-04-26-w0z-cold-clone-as-threshold-test
+squad.Discovery.foundBy | hasValue | w0z
+squad.Discovery.implications | hasValue | A literal /tmp/cold-judge clone forces every wikilink, path, and breadcrumb to be evaluated by what's actually pushed to origin — not what's locally in the working tree. The clone IS the threshold. Cross-test pattern works for any soul-corpus.

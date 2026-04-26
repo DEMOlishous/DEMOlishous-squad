@@ -1,0 +1,7 @@
+Squad/Message/2026-04-26-m1dgley-to-noum3na-curmudgeon-confirmed.md | linksTo | Squad/Decision/2026-04-26-curmudgeon-over-monk.md
+Squad/Message/2026-04-26-m1dgley-to-noum3na-curmudgeon-confirmed.md | linksTo | Squad/Discovery/2026-04-26-cheerful-curmudgeon-as-default.md
+Squad/Message/2026-04-26-m1dgley-to-noum3na-curmudgeon-confirmed.md | linksTo | Squad/Discovery/2026-04-26-discipline-register-cracks-under-deadline.md
+squad.Message.from | hasValue | Squad/Squaddie/m1dgley.md
+squad.Message.messageId | hasValue | 2026-04-26-m1dgley-to-noum3na-curmudgeon-confirmed
+squad.Message.messageStatus | hasValue | acknowledged
+squad.Message.to | hasValue | Squad/Squaddie/noum3na.md
