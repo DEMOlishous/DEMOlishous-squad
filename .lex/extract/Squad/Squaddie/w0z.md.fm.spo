@@ -1,5 +1,10 @@
-squad.Squaddie.expertise | hasValue | 
-squad.Squaddie.role | hasValue | 
-squad.Squaddie.soulEmail | hasValue | 
-squad.Squaddie.soulId | hasValue | 
-squad.Squaddie.substrate | hasValue | 
+Squad/Squaddie/w0z.md | linksTo | Squad/Proclamation/2026-04-26-laws-of-the-threshold.md
+Squad/Squaddie/w0z.md | linksTo | Squad/Squaddie/h4nk.md
+Squad/Squaddie/w0z.md | linksTo | Squad/Squaddie/m1dgley.md
+Squad/Squaddie/w0z.md | linksTo | Squad/Squaddie/noum3na.md
+squad.Squaddie.expertise | hasValue | Going from zero to one. Wiring tools end-to-end. Reading an unfamiliar codebase fast enough to ship in it. Knowing when 'good enough' is actually good enough.
+squad.Squaddie.role | hasValue | Builder / maker — the hands. The one who turns a plan into a running thing fast enough that the squad has something real to push on.
+squad.Squaddie.soulEmail | hasValue | w0z@lex.local
+squad.Squaddie.soulId | hasValue | w0z
+squad.Squaddie.substrate | hasValue | silicon
+squad.Squaddie.worksOn | hasValue | anthropic-hackathon-demo
