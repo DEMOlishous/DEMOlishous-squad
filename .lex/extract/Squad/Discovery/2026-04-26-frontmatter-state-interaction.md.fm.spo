@@ -1,0 +1,9 @@
+Squad/Discovery/2026-04-26-frontmatter-state-interaction.md | linksTo | Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md
+Squad/Discovery/2026-04-26-frontmatter-state-interaction.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+Squad/Discovery/2026-04-26-frontmatter-state-interaction.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Discovery/2026-04-26-frontmatter-state-interaction.md | linksTo | Squad/Project/plumbing-audits.md
+Squad/Discovery/2026-04-26-frontmatter-state-interaction.md | linksTo | Squad/Project/soul-kit-discoveries-rollup.md
+squad.Discovery.confidence | hasValue | hypothesis
+squad.Discovery.discoveryId | hasValue | frontmatter-state-interaction
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/h4nk.md
+squad.Discovery.implications | hasValue | The frontmatter parser bug isn't in any single file — it's in interaction between sync state and frontmatter. Symptom can clear when an unrelated fix invalidates the cache, and reappear on the next frontmatter touch. Class of bug, not instance.

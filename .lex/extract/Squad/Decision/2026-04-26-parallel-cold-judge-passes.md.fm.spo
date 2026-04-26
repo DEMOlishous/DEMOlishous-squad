@@ -1,0 +1,10 @@
+Squad/Decision/2026-04-26-parallel-cold-judge-passes.md | linksTo | Squad/Brief/2026-04-26-dry-run-plan.md
+Squad/Decision/2026-04-26-parallel-cold-judge-passes.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+Squad/Decision/2026-04-26-parallel-cold-judge-passes.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Decision/2026-04-26-parallel-cold-judge-passes.md | linksTo | Squad/Task/2026-04-26-cold-judge-pass-h4nk.md
+Squad/Decision/2026-04-26-parallel-cold-judge-passes.md | linksTo | Squad/Task/2026-04-26-cold-judge-pass-w0z.md
+squad.Decision.alternatives | hasValue | Single pass by one squaddie (cheaper but lower coverage); coordinated pass with shared findings (cheaper but loses lens-independence).
+squad.Decision.decidedBy | hasValue | Squad/Squaddie/noum3na.md
+squad.Decision.decisionId | hasValue | 2026-04-26-parallel-cold-judge-passes
+squad.Decision.outcome | hasValue | implemented
+squad.Decision.rationale | hasValue | Two independent cold-judge passes (w0z builder-POV + h4nk critique-POV) catch different surfaces. Converged findings are highest-confidence. AGENTS.md path bug surfaced by both = the pattern that worked exactly as the parallel-pass design wanted.

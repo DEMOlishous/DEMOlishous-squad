@@ -1,0 +1,7 @@
+Squad/Message/2026-04-26-h4nk-to-noum3na-cold-judge-findings.md | linksTo | Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md
+Squad/Message/2026-04-26-h4nk-to-noum3na-cold-judge-findings.md | linksTo | Squad/Bug/2026-04-26-untitled-md-sweep-hazard.md
+Squad/Message/2026-04-26-h4nk-to-noum3na-cold-judge-findings.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+squad.Message.from | hasValue | Squad/Squaddie/h4nk.md
+squad.Message.messageId | hasValue | 2026-04-26-h4nk-to-noum3na-cold-judge-findings
+squad.Message.messageStatus | hasValue | acknowledged
+squad.Message.to | hasValue | Squad/Squaddie/noum3na.md

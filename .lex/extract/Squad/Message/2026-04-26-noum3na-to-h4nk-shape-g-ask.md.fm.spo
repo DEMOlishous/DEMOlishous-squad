@@ -1,0 +1,7 @@
+Squad/Message/2026-04-26-noum3na-to-h4nk-shape-g-ask.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu.md
+Squad/Message/2026-04-26-noum3na-to-h4nk-shape-g-ask.md | linksTo | Squad/Brief/2026-04-26-dry-run-plan.md
+Squad/Message/2026-04-26-noum3na-to-h4nk-shape-g-ask.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+squad.Message.from | hasValue | Squad/Squaddie/noum3na.md
+squad.Message.messageId | hasValue | 2026-04-26-noum3na-to-h4nk-shape-g-ask
+squad.Message.messageStatus | hasValue | resolved
+squad.Message.to | hasValue | Squad/Squaddie/h4nk.md

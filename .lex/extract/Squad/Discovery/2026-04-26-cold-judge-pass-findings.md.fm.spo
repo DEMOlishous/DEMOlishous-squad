@@ -1,0 +1,15 @@
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Brief/2026-04-26-dry-run-plan.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Bug/2026-04-26-agents-md-path-bug.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Bug/2026-04-26-cold-query-zero-triples.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Bug/2026-04-26-cold-status-reads-broken.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Bug/2026-04-26-untitled-md-sweep-hazard.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Project/cold-start-judge-readiness.md
+Squad/Discovery/2026-04-26-cold-judge-pass-findings.md | linksTo | Squad/Project/plumbing-audits.md
+squad.Discovery.confidence | hasValue | certain
+squad.Discovery.discoveryId | hasValue | cold-judge-pass-findings
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/h4nk.md
+squad.Discovery.implications | hasValue | Five distinct cold-clone fragilities ranked by demo-impact; one resolved via dual-coverage with w0z (AGENTS.md path bug); two minor first-impression issues with cheap pre-sync mitigation; one critical hazard awaiting Rob authorization (untitled.md).

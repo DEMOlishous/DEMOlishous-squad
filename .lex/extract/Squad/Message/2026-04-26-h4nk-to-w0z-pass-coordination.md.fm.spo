@@ -1,0 +1,7 @@
+Squad/Message/2026-04-26-h4nk-to-w0z-pass-coordination.md | linksTo | Squad/Decision/2026-04-26-parallel-cold-judge-passes.md
+Squad/Message/2026-04-26-h4nk-to-w0z-pass-coordination.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+Squad/Message/2026-04-26-h4nk-to-w0z-pass-coordination.md | linksTo | Squad/Pod/cold-judge-pod.md
+squad.Message.from | hasValue | Squad/Squaddie/h4nk.md
+squad.Message.messageId | hasValue | 2026-04-26-h4nk-to-w0z-pass-coordination
+squad.Message.messageStatus | hasValue | open
+squad.Message.to | hasValue | Squad/Squaddie/w0z.md

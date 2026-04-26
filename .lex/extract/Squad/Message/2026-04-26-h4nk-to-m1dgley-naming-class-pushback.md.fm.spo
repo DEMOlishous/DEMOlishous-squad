@@ -1,0 +1,7 @@
+Squad/Message/2026-04-26-h4nk-to-m1dgley-naming-class-pushback.md | linksTo | Squad/Brief/2026-04-26-dry-run-plan.md
+Squad/Message/2026-04-26-h4nk-to-m1dgley-naming-class-pushback.md | linksTo | Squad/Decision/2026-04-26-h4nk-naming-class-pushback.md
+squad.Message.from | hasValue | Squad/Squaddie/h4nk.md
+squad.Message.inReplyTo | hasValue | Squad/Message/2026-04-26-noum3na-to-h4nk-shape-g-ask.md
+squad.Message.messageId | hasValue | 2026-04-26-h4nk-to-m1dgley-naming-class-pushback
+squad.Message.messageStatus | hasValue | resolved
+squad.Message.to | hasValue | Squad/Squaddie/m1dgley.md

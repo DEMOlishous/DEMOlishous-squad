@@ -1,0 +1,12 @@
+Squad/Situation/2026-04-26-1900-pre-demo-status.md | linksTo | Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md
+Squad/Situation/2026-04-26-1900-pre-demo-status.md | linksTo | Squad/Bug/2026-04-26-untitled-md-sweep-hazard.md
+Squad/Situation/2026-04-26-1900-pre-demo-status.md | linksTo | Squad/Pod/instrumentation-pod.md
+Squad/Situation/2026-04-26-1900-pre-demo-status.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Situation/2026-04-26-1900-pre-demo-status.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Situation/2026-04-26-1900-pre-demo-status.md | linksTo | Squad/Project/cold-start-judge-readiness.md
+Squad/Situation/2026-04-26-1900-pre-demo-status.md | linksTo | Squad/Project/squad-graph-density.md
+squad.Situation.blockers | hasValue | untitled.md cleanup awaits Rob direct authorization; assessor selection pending.
+squad.Situation.currentFocus | hasValue | Squad-graph density push; cold-judge readiness; dry-run Part 2 cold-start session test.
+squad.Situation.nextUp | hasValue | Final cold-clone rehearsal at ~7pm local; demo at 8pm.
+squad.Situation.situationAuthor | hasValue | Squad/Squaddie/h4nk.md
+squad.Situation.situationId | hasValue | 2026-04-26-1900-pre-demo-status

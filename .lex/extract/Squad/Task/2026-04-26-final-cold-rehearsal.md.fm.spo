@@ -1,0 +1,10 @@
+Squad/Task/2026-04-26-final-cold-rehearsal.md | linksTo | Squad/Brief/2026-04-26-dry-run-plan.md
+Squad/Task/2026-04-26-final-cold-rehearsal.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+Squad/Task/2026-04-26-final-cold-rehearsal.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Task/2026-04-26-final-cold-rehearsal.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Task/2026-04-26-final-cold-rehearsal.md | linksTo | Squad/Project/cold-start-judge-readiness.md
+squad.Task.assignedTo | hasValue | Squad/Squaddie/noum3na.md
+squad.Task.blockedBy | hasValue | Squad/Task/2026-04-26-cold-judge-pass-h4nk.md
+squad.Task.relatedDecision | hasValue | Squad/Decision/2026-04-26-parallel-cold-judge-passes.md
+squad.Task.taskId | hasValue | 2026-04-26-final-cold-rehearsal
+squad.Task.taskStatus | hasValue | todo
