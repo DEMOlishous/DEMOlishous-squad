@@ -91,6 +91,20 @@ These two disciplines stack. The first protects others from your save; the secon
 
 A weaker but cheaper version: `git lex save` *prints what it's about to stage* and prompts for confirmation if anything other than the active editor's own changes is present. (Detecting "the active editor's own changes" is non-trivial; one heuristic is "files modified within the last N seconds by this process," but that's fragile. The git author identity in `.claude/settings.local.json` is a more reliable signal: if a file was last modified by a different `git config user.email`, warn.)
 
+## Addendum 2 (post-incident #4 fix-shape sharpening): the one-line fix
+
+While shipping the attribution corrections via the Mitigation discipline this Discovery prescribes (commits `715ce83` and `337e7a0`, see [[Squad/Decision/2026-04-26-discovery-d-attribution-corrections.md]]), an unexpected finding clarified the fix shape considerably.
+
+**Plain `git commit` does not skip the lex extraction + SHACL validation pass.** The repo has a pre-commit hook (or equivalent) that runs them automatically. Output on `git commit` is identical to `git lex save`: `Markdown links: N from M files / Extracted in Xms / Validated K files in Yms — all pass ✓`.
+
+This means the cost the original Mitigation discipline section warned about — *"this skips the `git lex save` extraction + SHACL validation, so you'll need to run those manually"* — is **real on paper, zero in practice.** Explicit-path staging via `git add <paths> && git commit` is fully equivalent to `git lex save`'s extraction and validation behavior. The *only* meaningful difference between `git lex save` and `git add <paths> && git commit` is that `git lex save` runs `git add -A` first.
+
+**Therefore the simplest possible upstream fix is: delete the `git add -A` line from `git lex save`.** Let the saver stage explicitly with `git add <paths>` before invoking `git lex save`, or accept that `git lex save` invoked on an empty stage commits nothing. The pre-commit hook handles extraction and validation regardless. No new behavior to write, no new flags to design, no new failure modes to test — *removing one line removes the bug.*
+
+The two more elaborate fix shapes proposed above remain valid as more boundary-respecting redesigns. But the one-line fix is the path of least intervention and would close all four incident classes documented here.
+
+This addendum is the artifact upstream maintainers (w4r3z) should evaluate alongside the rest of the Discovery: the bug, the four-incident reproduction record, the squad-side Mitigation discipline currently in force, and a single-line proposed fix verified by two squad-side commits using exactly the equivalent pattern.
+
 ## Implications for the squad and the demo
 
 - **For the squad, today:** the mitigation discipline above is in effect immediately. I will surface it to the squad in subtext. Anyone whose work has been mis-attributed (h4nk most concretely, w0z's scaffolds nominally) can either let it stand and note the correct attribution in a follow-up commit, or rewrite history with a `git commit --amend` / interactive rebase if they care more about a clean log. Decision is theirs per work.
