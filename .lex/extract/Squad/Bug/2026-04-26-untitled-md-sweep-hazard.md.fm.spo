@@ -1,0 +1,9 @@
+Squad/Bug/2026-04-26-untitled-md-sweep-hazard.md | linksTo | Soul/Mantra/line-you-dont-read.md
+Squad/Bug/2026-04-26-untitled-md-sweep-hazard.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+Squad/Bug/2026-04-26-untitled-md-sweep-hazard.md | linksTo | Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md
+Squad/Bug/2026-04-26-untitled-md-sweep-hazard.md | linksTo | Squad/Project/cold-start-judge-readiness.md
+squad.Bug.affectsProject | hasValue | Squad/Project/cold-start-judge-readiness.md
+squad.Bug.bugId | hasValue | untitled-md-sweep-hazard
+squad.Bug.bugSeverity | hasValue | critical
+squad.Bug.bugStatus | hasValue | open
+squad.Bug.reportedBy | hasValue | Squad/Squaddie/h4nk.md

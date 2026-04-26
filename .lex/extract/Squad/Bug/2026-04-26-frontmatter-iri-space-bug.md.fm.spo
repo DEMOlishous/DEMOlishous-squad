@@ -1,0 +1,10 @@
+Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md | linksTo | Squad/Message/2026-04-26-h4nk-to-noum3na-cold-judge-findings.md
+Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md | linksTo | Squad/Project/cold-start-judge-readiness.md
+Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md | linksTo | Squad/Project/plumbing-audits.md
+squad.Bug.affectsProject | hasValue | Squad/Project/plumbing-audits.md
+squad.Bug.bugId | hasValue | frontmatter-iri-space
+squad.Bug.bugSeverity | hasValue | major
+squad.Bug.bugStatus | hasValue | confirmed
+squad.Bug.reportedBy | hasValue | Squad/Squaddie/h4nk.md

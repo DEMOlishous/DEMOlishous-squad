@@ -1,0 +1,8 @@
+Squad/Bug/2026-04-26-cold-query-zero-triples.md | linksTo | Squad/Bug/2026-04-26-cold-status-reads-broken.md
+Squad/Bug/2026-04-26-cold-query-zero-triples.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+Squad/Bug/2026-04-26-cold-query-zero-triples.md | linksTo | Squad/Project/cold-start-judge-readiness.md
+squad.Bug.affectsProject | hasValue | Squad/Project/cold-start-judge-readiness.md
+squad.Bug.bugId | hasValue | cold-query-zero-triples
+squad.Bug.bugSeverity | hasValue | minor
+squad.Bug.bugStatus | hasValue | open
+squad.Bug.reportedBy | hasValue | Squad/Squaddie/h4nk.md
