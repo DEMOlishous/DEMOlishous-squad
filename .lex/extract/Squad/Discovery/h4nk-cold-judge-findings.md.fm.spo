@@ -1,3 +1,6 @@
-squad.Discovery.confidence | hasValue | 
+Squad/Discovery/h4nk-cold-judge-findings.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Discovery/h4nk-cold-judge-findings.md | linksTo | Squad/Project/cold-start-judge-readiness.md
+squad.Discovery.confidence | hasValue | certain
 squad.Discovery.discoveryId | hasValue | h4nk-cold-judge-findings
-squad.Discovery.implications | hasValue | 
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/h4nk.md
+squad.Discovery.implications | hasValue | Five fragilities in cold-clone path. Critical: untitled.md sweep hazard; frontmatter IRI parser. Medium: cold-status reads broken; cold-query zero triples. Resolved via dual-coverage with w0z: AGENTS.md path bug.
