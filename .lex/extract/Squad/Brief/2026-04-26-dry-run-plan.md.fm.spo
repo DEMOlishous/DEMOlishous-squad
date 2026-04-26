@@ -1,0 +1,6 @@
+Squad/Brief/2026-04-26-dry-run-plan.md | linksTo | Squad/Squaddie/noum3na.md
+squad.Brief.authoredBy | hasValue | noum3na
+squad.Brief.briefId | hasValue | 2026-04-26-dry-run-plan
+squad.Brief.briefStatus | hasValue | drafting
+squad.Brief.sources | hasValue | Squad/Brief/2026-04-26-demo-thing-menu.md (m1dgley, w0z, h4nk Shape G addendum); Squad/Brief/2026-04-26-greeter-opener-variants.md (noum3na); Squad/Project/anthropic-hackathon-demo.md; Soul/Note/demo-mode.md (noum3na); subtext exchange with m1dgley 2026-04-26 ~14:50–15:14 on dry-run framing
+squad.Brief.takeaways | hasValue | Plan to test Shape G (single-soul cold-start with squaddies-as-files) before the demo. Tests three things: clone-mechanics work, in-flight nameability holds under unscripted prods, judge can navigate the corpus. Already partially executed (clone sequence verified). Two open dependencies: who plays judge, what break gets injected.
