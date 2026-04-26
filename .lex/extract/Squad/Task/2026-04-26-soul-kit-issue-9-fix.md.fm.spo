@@ -1,0 +1,13 @@
+Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | 1ux
+Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | 2026-04-26-verify-install-flow
+Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | 7R1PL3F0RC3
+Squad/Task/2026-04-26-soul-kit-issue-9-fix.md | linksTo | noum3na
+squad.Task.blocks | hasValue | 2026-04-26-verify-install-flow
+squad.Task.taskId | hasValue | 2026-04-26-soul-kit-issue-9-fix
+squad.Task.taskStatus | hasValue | todo
+tags | hasValue | demo-blocker
+tags | hasValue | issue-9
+tags | hasValue | kit-fix
+tags | hasValue | soul-kit
+tags | hasValue | task
+title | hasValue | Soul kit: ship CLAUDE.md → @AGENTS.md pointer (issue #9)

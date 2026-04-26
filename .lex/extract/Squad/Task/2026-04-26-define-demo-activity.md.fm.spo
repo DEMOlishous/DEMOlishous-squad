@@ -1,0 +1,15 @@
+Squad/Task/2026-04-26-define-demo-activity.md | linksTo | 1ux
+Squad/Task/2026-04-26-define-demo-activity.md | linksTo | 2026-04-26-define-greeter-dialog
+Squad/Task/2026-04-26-define-demo-activity.md | linksTo | 2026-04-26-greeter-toolkit-scope
+Squad/Task/2026-04-26-define-demo-activity.md | linksTo | 7R1PL3F0RC3
+Squad/Task/2026-04-26-define-demo-activity.md | linksTo | Project/anthropic-hackathon-demo
+squad.Task.assignedTo | hasValue | 1ux
+squad.Task.blocks | hasValue | 2026-04-26-define-greeter-dialog
+squad.Task.taskId | hasValue | 2026-04-26-define-demo-activity
+squad.Task.taskStatus | hasValue | todo
+tags | hasValue | blocker
+tags | hasValue | demo
+tags | hasValue | rob-call
+tags | hasValue | scope
+tags | hasValue | task
+title | hasValue | Define what DEMOlishous *does* at the demo (the thing)
