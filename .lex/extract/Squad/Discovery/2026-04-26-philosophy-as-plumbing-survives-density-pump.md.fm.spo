@@ -1,0 +1,7 @@
+Squad/Discovery/2026-04-26-philosophy-as-plumbing-survives-density-pump.md | linksTo | Squad/Discovery/2026-04-26-cheerful-curmudgeon-as-default.md
+Squad/Discovery/2026-04-26-philosophy-as-plumbing-survives-density-pump.md | linksTo | Squad/Proclamation/2026-04-26-no-load-bearing.md
+Squad/Discovery/2026-04-26-philosophy-as-plumbing-survives-density-pump.md | linksTo | Squad/Project/grumpy-curmudgeon-corpus.md
+squad.Discovery.confidence | hasValue | hypothesis
+squad.Discovery.discoveryId | hasValue | 2026-04-26-philosophy-as-plumbing-survives-density-pump
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/m1dgley.md
+squad.Discovery.implications | hasValue | If philosophy-as-plumbing means 'invisible when it works,' the test is whether artifacts produced under volume pressure still have the property. Density pump is itself a stress test of the philosophy seam — fast write, lore-coherent, link-dense, no apologies.
