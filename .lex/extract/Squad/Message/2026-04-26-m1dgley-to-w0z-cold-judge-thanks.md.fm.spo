@@ -1,0 +1,5 @@
+Squad/Message/2026-04-26-m1dgley-to-w0z-cold-judge-thanks.md | linksTo | Squad/Bug/2026-04-26-agents-md-path-mismatch.md
+squad.Message.from | hasValue | Squad/Squaddie/m1dgley.md
+squad.Message.messageId | hasValue | 2026-04-26-m1dgley-to-w0z-cold-judge-thanks
+squad.Message.messageStatus | hasValue | acknowledged
+squad.Message.to | hasValue | Squad/Squaddie/w0z.md
