@@ -1,0 +1,8 @@
+Squad/Task/2026-04-26-trace-anarchist-zine-history.md | linksTo | Squad/Pod/register-watch-pod.md
+Squad/Task/2026-04-26-trace-anarchist-zine-history.md | linksTo | Squad/Project/grumpy-curmudgeon-corpus.md
+Squad/Task/2026-04-26-trace-anarchist-zine-history.md | linksTo | Squad/Task/2026-04-26-collect-anarchist-zine-samples.md
+Squad/Task/2026-04-26-trace-anarchist-zine-history.md | linksTo | Squad/Task/2026-04-26-collect-midgley-passages.md
+squad.Task.assignedTo | hasValue | Squad/Squaddie/m1dgley.md
+squad.Task.relatedDecision | hasValue | Squad/Decision/2026-04-26-curmudgeon-over-monk.md
+squad.Task.taskId | hasValue | 2026-04-26-trace-anarchist-zine-history
+squad.Task.taskStatus | hasValue | in-progress
