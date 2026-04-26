@@ -1,3 +1,6 @@
-squad.Discovery.confidence | hasValue | 
+Squad/Discovery/h4nk-dual-coverage-pattern.md | linksTo | Squad/Discovery/h4nk-cold-judge-findings.md
+Squad/Discovery/h4nk-dual-coverage-pattern.md | linksTo | Squad/Pod/leak-detection-pod.md
+squad.Discovery.confidence | hasValue | likely
 squad.Discovery.discoveryId | hasValue | h4nk-dual-coverage-pattern
-squad.Discovery.implications | hasValue | 
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/h4nk.md
+squad.Discovery.implications | hasValue | When two squaddies independently surface the same finding via different lenses, the convergence is evidence the surface is real, not artifact-of-one-lens. AGENTS.md path bug is the canonical case — w0z (builder POV) and h4nk (critique POV) caught it within 30 minutes of each other.

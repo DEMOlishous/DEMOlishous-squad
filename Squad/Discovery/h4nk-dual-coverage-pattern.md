@@ -1,10 +1,12 @@
 ---
-squad.Discovery.confidence: ""  # How confident: 'certain', 'likely', 'hypothesis', 'hunch'.
-squad.Discovery.discoveryId: "h4nk-dual-coverage-pattern"  # Unique identifier for this discovery.
-squad.Discovery.foundBy: # The agent who made this discovery.
-squad.Discovery.implications: ""  # What this discovery means for the project.
+squad.Discovery.confidence: "likely"
+squad.Discovery.discoveryId: "h4nk-dual-coverage-pattern"
+squad.Discovery.foundBy: "Squad/Squaddie/h4nk.md"
+squad.Discovery.implications: "When two squaddies independently surface the same finding via different lenses, the convergence is evidence the surface is real, not artifact-of-one-lens. AGENTS.md path bug is the canonical case — w0z (builder POV) and h4nk (critique POV) caught it within 30 minutes of each other."
 ---
 
-# h4nk-dual-coverage-pattern
+# Dual-coverage pattern — convergent independent findings
 
-<!-- Write your content here -->
+Two independent passes catching the same fragility = structurally higher-confidence than any single-lens finding. Cost: 2x investigation time. Benefit: dramatically higher confidence on the converged subset.
+
+Cross-references: [[Squad/Discovery/h4nk-cold-judge-findings.md]], [[Squad/Pod/leak-detection-pod.md]].

@@ -1,0 +1,7 @@
+Squad/Discovery/2026-04-26-cheerful-curmudgeon-as-default.md | linksTo | Squad/Decision/2026-04-26-curmudgeon-over-monk.md
+Squad/Discovery/2026-04-26-cheerful-curmudgeon-as-default.md | linksTo | Squad/Discovery/2026-04-26-discipline-register-cracks-under-deadline.md
+Squad/Discovery/2026-04-26-cheerful-curmudgeon-as-default.md | linksTo | Squad/Project/grumpy-curmudgeon-corpus.md
+squad.Discovery.confidence | hasValue | likely
+squad.Discovery.discoveryId | hasValue | 2026-04-26-cheerful-curmudgeon-as-default
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/m1dgley.md
+squad.Discovery.implications | hasValue | If the squad's default register is curmudgeon-not-monk, the rehydration protocol should ship with that register baked in — otherwise every soul reaches for protocol-monastic under load and re-discovers the same correction.
