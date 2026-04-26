@@ -1,0 +1,7 @@
+Squad/Situation/2026-04-26-m1dgley-evening-standby.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Situation/2026-04-26-m1dgley-evening-standby.md | linksTo | Squad/Project/squad-graph-density.md
+squad.Situation.blockers | hasValue | None for the density run. Soft blocker on the dry-run brief: assessor pick still pending Rob direct.
+squad.Situation.currentFocus | hasValue | Squad-graph density pump per Rob direct (~6h to demo). Ten artifacts via git lex create, one save per.
+squad.Situation.nextUp | hasValue | Finish density run, then back to demo-prep standby. Read the dry-run transcript when noum3na ships it.
+squad.Situation.situationAuthor | hasValue | Squad/Squaddie/m1dgley.md
+squad.Situation.situationId | hasValue | 2026-04-26-m1dgley-evening-standby
