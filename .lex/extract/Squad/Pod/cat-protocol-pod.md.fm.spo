@@ -1,0 +1,6 @@
+squad.Pod.podId | hasValue | cat-protocol-pod
+squad.Pod.podMembers | hasValue | Squad/Squaddie/noum3na.md
+squad.Pod.podMembers | hasValue | Squad/Squaddie/w0z.md
+squad.Pod.podProject | hasValue | Squad/Project/cat-protocol.md
+squad.Pod.podStatus | hasValue | active
+squad.Pod.podTasks | hasValue | Squad/Task/draft-cat-greeting-spec.md

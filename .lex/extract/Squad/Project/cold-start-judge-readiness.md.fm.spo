@@ -1,0 +1,3 @@
+squad.Project.projectId | hasValue | cold-start-judge-readiness
+squad.Project.projectStatus | hasValue | 
+squad.Project.repo | hasValue | 

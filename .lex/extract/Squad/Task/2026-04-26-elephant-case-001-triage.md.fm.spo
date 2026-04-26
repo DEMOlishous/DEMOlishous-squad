@@ -1,0 +1,7 @@
+Squad/Task/2026-04-26-elephant-case-001-triage.md | linksTo | Squad/Pod/elephant-pod-alpha.md
+Squad/Task/2026-04-26-elephant-case-001-triage.md | linksTo | Squad/Project/elephants-as-evidence.md
+Squad/Task/2026-04-26-elephant-case-001-triage.md | linksTo | Squad/Task/2026-04-26-elephant-case-002-collation.md
+squad.Task.assignedTo | hasValue | m1dgley
+squad.Task.relatedDecision | hasValue | 2026-04-26-name-cases-before-philosophizing
+squad.Task.taskId | hasValue | 2026-04-26-elephant-case-001-triage
+squad.Task.taskStatus | hasValue | in-progress

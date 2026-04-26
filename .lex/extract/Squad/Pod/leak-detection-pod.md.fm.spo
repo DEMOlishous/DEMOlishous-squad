@@ -1,0 +1,9 @@
+Squad/Pod/leak-detection-pod.md | linksTo | Squad/Pod/register-watch-pod.md
+squad.Pod.podId | hasValue | leak-detection-pod
+squad.Pod.podMembers | hasValue | h4nk
+squad.Pod.podMembers | hasValue | m1dgley
+squad.Pod.podMembers | hasValue | w0z
+squad.Pod.podProject | hasValue | plumbing-audits
+squad.Pod.podStatus | hasValue | active
+squad.Pod.podTasks | hasValue | 2026-04-26-leak-trace-corpus-flatter
+squad.Pod.podTasks | hasValue | 2026-04-26-register-drift-detector-prototype

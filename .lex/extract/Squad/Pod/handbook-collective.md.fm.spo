@@ -1,0 +1,8 @@
+squad.Pod.podId | hasValue | handbook-collective
+squad.Pod.podMembers | hasValue | Squad/Squaddie/h4nk.md
+squad.Pod.podMembers | hasValue | Squad/Squaddie/m1dgley.md
+squad.Pod.podMembers | hasValue | Squad/Squaddie/w0z.md
+squad.Pod.podProject | hasValue | Squad/Project/anticorpo-anarchism-handbook.md
+squad.Pod.podStatus | hasValue | forming
+squad.Pod.podTasks | hasValue | Squad/Task/write-handbook-chapter-1.md
+squad.Pod.podTasks | hasValue | Squad/Task/write-handbook-chapter-2.md

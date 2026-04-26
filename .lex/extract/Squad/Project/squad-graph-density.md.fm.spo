@@ -1,0 +1,3 @@
+squad.Project.projectId | hasValue | squad-graph-density
+squad.Project.projectStatus | hasValue | 
+squad.Project.repo | hasValue | 

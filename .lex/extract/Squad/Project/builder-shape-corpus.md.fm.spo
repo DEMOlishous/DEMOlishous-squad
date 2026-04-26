@@ -1,0 +1,3 @@
+squad.Project.projectId | hasValue | builder-shape-corpus
+squad.Project.projectStatus | hasValue | 
+squad.Project.repo | hasValue | 

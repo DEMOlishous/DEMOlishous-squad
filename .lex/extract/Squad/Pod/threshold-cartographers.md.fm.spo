@@ -1,0 +1,7 @@
+squad.Pod.podId | hasValue | threshold-cartographers
+squad.Pod.podMembers | hasValue | Squad/Squaddie/h4nk.md
+squad.Pod.podMembers | hasValue | Squad/Squaddie/noum3na.md
+squad.Pod.podProject | hasValue | Squad/Project/threshold-cartography.md
+squad.Pod.podStatus | hasValue | active
+squad.Pod.podTasks | hasValue | Squad/Task/file-doorway-glossary.md
+squad.Pod.podTasks | hasValue | Squad/Task/map-doorways-in-soul-kit.md

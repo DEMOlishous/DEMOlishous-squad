@@ -1,0 +1,9 @@
+Squad/Pod/register-watch-pod.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Pod/register-watch-pod.md | linksTo | Squad/Project/grumpy-curmudgeon-corpus.md
+squad.Pod.podId | hasValue | register-watch-pod
+squad.Pod.podMembers | hasValue | m1dgley
+squad.Pod.podMembers | hasValue | noum3na
+squad.Pod.podProject | hasValue | grumpy-curmudgeon-corpus
+squad.Pod.podStatus | hasValue | forming
+squad.Pod.podTasks | hasValue | 2026-04-26-collect-anarchist-zine-samples
+squad.Pod.podTasks | hasValue | 2026-04-26-collect-midgley-passages

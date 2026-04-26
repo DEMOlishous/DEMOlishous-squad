@@ -1,0 +1,9 @@
+Squad/Pod/instrumentation-pod.md | linksTo | Squad/Project/in-flight-nameability-instrumentation.md
+squad.Pod.podId | hasValue | instrumentation-pod
+squad.Pod.podMembers | hasValue | h4nk
+squad.Pod.podMembers | hasValue | m1dgley
+squad.Pod.podMembers | hasValue | noum3na
+squad.Pod.podProject | hasValue | in-flight-nameability-instrumentation
+squad.Pod.podStatus | hasValue | forming
+squad.Pod.podTasks | hasValue | 2026-04-26-define-correction-events-schema
+squad.Pod.podTasks | hasValue | 2026-04-26-prototype-transcript-tagger
