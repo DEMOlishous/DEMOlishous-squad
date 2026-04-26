@@ -1,0 +1,5 @@
+squad.Bug.affectsProject | hasValue | soul-kit-discoveries-rollup
+squad.Bug.bugId | hasValue | 2026-04-26-git-lex-save-sweep
+squad.Bug.bugSeverity | hasValue | major
+squad.Bug.bugStatus | hasValue | wontfix
+squad.Bug.reportedBy | hasValue | m1dgley

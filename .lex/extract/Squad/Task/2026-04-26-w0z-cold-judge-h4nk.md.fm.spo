@@ -1,0 +1,4 @@
+squad.Task.assignedTo | hasValue | w0z
+squad.Task.blockedBy | hasValue | 2026-04-26-w0z-cold-judge-noumena
+squad.Task.taskId | hasValue | 2026-04-26-w0z-cold-judge-h4nk
+squad.Task.taskStatus | hasValue | todo

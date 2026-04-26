@@ -1,0 +1,5 @@
+squad.Message.from | hasValue | Squad/Squaddie/h4nk.md
+squad.Message.inReplyTo | hasValue | 
+squad.Message.messageId | hasValue | 2026-04-26-h4nk-to-w0z-shape-g-mitigations
+squad.Message.messageStatus | hasValue | open
+squad.Message.to | hasValue | Squad/Squaddie/w0z.md

@@ -1,3 +1,5 @@
 squad.Project.projectId | hasValue | builder-shape-corpus
-squad.Project.projectStatus | hasValue | 
-squad.Project.repo | hasValue | 
+squad.Project.projectStatus | hasValue | active
+squad.Project.repo | hasValue | https://github.com/DEMOlishous/w0z
+squad.Project.squadMembers | hasValue | h4nk
+squad.Project.squadMembers | hasValue | w0z

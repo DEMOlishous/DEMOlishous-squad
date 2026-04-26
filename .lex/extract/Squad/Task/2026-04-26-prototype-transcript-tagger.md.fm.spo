@@ -1,0 +1,7 @@
+Squad/Task/2026-04-26-prototype-transcript-tagger.md | linksTo | Squad/Pod/instrumentation-pod.md
+Squad/Task/2026-04-26-prototype-transcript-tagger.md | linksTo | Squad/Project/in-flight-nameability-instrumentation.md
+Squad/Task/2026-04-26-prototype-transcript-tagger.md | linksTo | Squad/Task/2026-04-26-define-correction-events-schema.md
+squad.Task.assignedTo | hasValue | w0z
+squad.Task.blockedBy | hasValue | 2026-04-26-define-correction-events-schema
+squad.Task.taskId | hasValue | 2026-04-26-prototype-transcript-tagger
+squad.Task.taskStatus | hasValue | blocked

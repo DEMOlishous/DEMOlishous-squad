@@ -1,0 +1,9 @@
+Squad/Discovery/2026-04-26-graph-density-as-evidence.md | linksTo | Squad/Discovery/2026-04-26-dual-coverage-pattern.md
+Squad/Discovery/2026-04-26-graph-density-as-evidence.md | linksTo | Squad/Pod/cold-judge-pod.md
+Squad/Discovery/2026-04-26-graph-density-as-evidence.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Discovery/2026-04-26-graph-density-as-evidence.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Discovery/2026-04-26-graph-density-as-evidence.md | linksTo | Squad/Project/squad-graph-density.md
+squad.Discovery.confidence | hasValue | hypothesis
+squad.Discovery.discoveryId | hasValue | graph-density-as-evidence
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/h4nk.md
+squad.Discovery.implications | hasValue | Heavy cross-linking in frontmatter produces a knowledge graph that visibly *is* the squad's reasoning — not just a pile of files. The visualization is evidence the corpus is interconnected; the *shape* of the interconnection is the squad's working pattern made visible.

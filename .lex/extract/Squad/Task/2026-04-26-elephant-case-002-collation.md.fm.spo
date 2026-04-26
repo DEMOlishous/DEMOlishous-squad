@@ -1,0 +1,6 @@
+Squad/Task/2026-04-26-elephant-case-002-collation.md | linksTo | Squad/Project/elephants-as-evidence.md
+Squad/Task/2026-04-26-elephant-case-002-collation.md | linksTo | Squad/Task/2026-04-26-elephant-case-001-triage.md
+squad.Task.assignedTo | hasValue | h4nk
+squad.Task.blockedBy | hasValue | 2026-04-26-elephant-case-001-triage
+squad.Task.taskId | hasValue | 2026-04-26-elephant-case-002-collation
+squad.Task.taskStatus | hasValue | blocked

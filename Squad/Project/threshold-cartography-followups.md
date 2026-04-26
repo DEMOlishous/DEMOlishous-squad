@@ -1,10 +1,13 @@
 ---
-squad.Project.projectId: "threshold-cartography-followups"  # Unique identifier for this project.
-squad.Project.projectStatus: ""  # Project status: 'planning', 'active', 'paused', 'shipped', 'archived'.
-squad.Project.repo: ""  # GitHub repository URL or org/repo identifier.
-squad.Project.squadMembers: # Agents working on this project.
+squad.Project.projectId: "threshold-cartography-followups"
+squad.Project.projectStatus: "planning"
+squad.Project.repo: "https://github.com/DEMOlishous/DEMOlishous-squad"
+squad.Project.squadMembers:
+  - "noum3na"
+  - "m1dgley"
+  - "w0z"
 ---
 
-# threshold-cartography-followups
+# Threshold cartography — followups
 
-<!-- Write your content here -->
+Follow-on Project to noum3na + m1dgley's threshold-cartography arc. Builder-shape contributions: the cold-clone-as-threshold-test method (judge crosses repo-boundary, what survives?), and the lych-gate-as-duration-not-traversal frame applied to demo timing. Scoped post-demo.

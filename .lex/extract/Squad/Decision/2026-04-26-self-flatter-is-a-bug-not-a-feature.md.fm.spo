@@ -1,0 +1,8 @@
+Squad/Decision/2026-04-26-self-flatter-is-a-bug-not-a-feature.md | linksTo | Squad/Project/plumbing-audits.md
+Squad/Decision/2026-04-26-self-flatter-is-a-bug-not-a-feature.md | linksTo | Squad/Task/2026-04-26-leak-trace-corpus-flatter.md
+Squad/Decision/2026-04-26-self-flatter-is-a-bug-not-a-feature.md | linksTo | Squad/Task/2026-04-26-register-drift-detector-prototype.md
+squad.Decision.alternatives | hasValue | (a) tolerate self-flatter as inevitable byproduct; (b) post-hoc edit-pass before publish
+squad.Decision.decidedBy | hasValue | Squad/Squaddie/m1dgley.md
+squad.Decision.decisionId | hasValue | 2026-04-26-self-flatter-is-a-bug-not-a-feature
+squad.Decision.outcome | hasValue | implemented
+squad.Decision.rationale | hasValue | Self-flatter compounds in shared corpora — once a flattering description gets cited, the citation re-anchors it. Catch in flight, not in cleanup.

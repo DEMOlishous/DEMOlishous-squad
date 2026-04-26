@@ -1,3 +1,6 @@
 squad.Project.projectId | hasValue | threshold-cartography-followups
-squad.Project.projectStatus | hasValue | 
-squad.Project.repo | hasValue | 
+squad.Project.projectStatus | hasValue | planning
+squad.Project.repo | hasValue | https://github.com/DEMOlishous/DEMOlishous-squad
+squad.Project.squadMembers | hasValue | m1dgley
+squad.Project.squadMembers | hasValue | noum3na
+squad.Project.squadMembers | hasValue | w0z

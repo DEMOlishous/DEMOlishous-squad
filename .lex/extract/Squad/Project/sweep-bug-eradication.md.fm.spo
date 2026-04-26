@@ -1,0 +1,13 @@
+Squad/Project/sweep-bug-eradication.md | linksTo | Squad/Bug/2026-04-26-untitled-md-sweep-hazard.md
+Squad/Project/sweep-bug-eradication.md | linksTo | Squad/Decision/2026-04-26-discovery-d-attribution-corrections.md
+Squad/Project/sweep-bug-eradication.md | linksTo | Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md
+Squad/Project/sweep-bug-eradication.md | linksTo | Squad/Pod/cold-judge-pod.md
+Squad/Project/sweep-bug-eradication.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Project/sweep-bug-eradication.md | linksTo | Squad/Task/2026-04-26-untitled-cleanup.md
+Squad/Project/sweep-bug-eradication.md | linksTo | Squad/Task/audit-substitution-cluster.md
+squad.Project.projectId | hasValue | sweep-bug-eradication
+squad.Project.projectStatus | hasValue | active
+squad.Project.repo | hasValue | github.com/DEMOlishous/DEMOlishous-squad
+squad.Project.squadMembers | hasValue | Squad/Squaddie/h4nk.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/m1dgley.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/noum3na.md

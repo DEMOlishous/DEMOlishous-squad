@@ -1,0 +1,5 @@
+squad.Bug.affectsProject | hasValue | soul-kit-discoveries-rollup
+squad.Bug.bugId | hasValue | 2026-04-26-empty-write-silent-fail
+squad.Bug.bugSeverity | hasValue | minor
+squad.Bug.bugStatus | hasValue | open
+squad.Bug.reportedBy | hasValue | w0z

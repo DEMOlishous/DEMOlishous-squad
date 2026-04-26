@@ -1,0 +1,7 @@
+Squad/Task/2026-04-26-register-drift-detector-prototype.md | linksTo | Squad/Bug/register-drift-002.md
+Squad/Task/2026-04-26-register-drift-detector-prototype.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Task/2026-04-26-register-drift-detector-prototype.md | linksTo | Squad/Task/2026-04-26-leak-trace-corpus-flatter.md
+squad.Task.assignedTo | hasValue | w0z
+squad.Task.relatedDecision | hasValue | 2026-04-26-self-flatter-is-a-bug-not-a-feature
+squad.Task.taskId | hasValue | 2026-04-26-register-drift-detector-prototype
+squad.Task.taskStatus | hasValue | todo

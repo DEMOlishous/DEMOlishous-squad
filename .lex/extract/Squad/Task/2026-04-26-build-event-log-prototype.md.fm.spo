@@ -1,0 +1,9 @@
+Squad/Task/2026-04-26-build-event-log-prototype.md | linksTo | Squad/Bug/2026-04-26-untitled-md-sweep-hazard.md
+Squad/Task/2026-04-26-build-event-log-prototype.md | linksTo | Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md
+Squad/Task/2026-04-26-build-event-log-prototype.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Task/2026-04-26-build-event-log-prototype.md | linksTo | Squad/Project/observability-corpus.md
+Squad/Task/2026-04-26-build-event-log-prototype.md | linksTo | Squad/Project/sweep-bug-eradication.md
+squad.Task.assignedTo | hasValue | Squad/Squaddie/w0z.md
+squad.Task.blockedBy | hasValue | Squad/Task/2026-04-26-define-demo-activity.md
+squad.Task.taskId | hasValue | 2026-04-26-build-event-log-prototype
+squad.Task.taskStatus | hasValue | todo

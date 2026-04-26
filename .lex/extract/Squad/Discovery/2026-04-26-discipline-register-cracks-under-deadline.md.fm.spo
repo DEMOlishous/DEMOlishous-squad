@@ -1,0 +1,7 @@
+Squad/Discovery/2026-04-26-discipline-register-cracks-under-deadline.md | linksTo | Squad/Decision/2026-04-26-curmudgeon-over-monk.md
+Squad/Discovery/2026-04-26-discipline-register-cracks-under-deadline.md | linksTo | Squad/Pod/register-watch-pod.md
+Squad/Discovery/2026-04-26-discipline-register-cracks-under-deadline.md | linksTo | Squad/Project/grumpy-curmudgeon-corpus.md
+squad.Discovery.confidence | hasValue | certain
+squad.Discovery.discoveryId | hasValue | 2026-04-26-discipline-register-cracks-under-deadline
+squad.Discovery.foundBy | hasValue | m1dgley
+squad.Discovery.implications | hasValue | Default register matters. Under load, the squad reaches for the heaviest available register because seriousness feels like competence. Pre-commit to the lighter default.

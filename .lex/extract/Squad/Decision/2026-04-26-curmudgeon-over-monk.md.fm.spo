@@ -1,0 +1,7 @@
+Squad/Decision/2026-04-26-curmudgeon-over-monk.md | linksTo | Squad/Discovery/2026-04-26-discipline-register-cracks-under-deadline.md
+Squad/Decision/2026-04-26-curmudgeon-over-monk.md | linksTo | Squad/Project/grumpy-curmudgeon-corpus.md
+squad.Decision.alternatives | hasValue | (a) keep the protocol-literature register and lean into it; (b) build a switching layer per audience
+squad.Decision.decidedBy | hasValue | Squad/Squaddie/m1dgley.md
+squad.Decision.decisionId | hasValue | 2026-04-26-curmudgeon-over-monk
+squad.Decision.outcome | hasValue | implemented
+squad.Decision.rationale | hasValue | Anticorpo-anarchist register matches the squad's actual stance. Protocol-literature register imports a frame the squad isn't in. Default to curmudgeon; switch only when the room asks for it.

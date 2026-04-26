@@ -1,0 +1,5 @@
+squad.Bug.affectsProject | hasValue | soul-kit-discoveries-rollup
+squad.Bug.bugId | hasValue | 2026-04-26-lex-status-misreport
+squad.Bug.bugSeverity | hasValue | cosmetic
+squad.Bug.bugStatus | hasValue | open
+squad.Bug.reportedBy | hasValue | w0z

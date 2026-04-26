@@ -1,0 +1,3 @@
+squad.Task.assignedTo | hasValue | w0z
+squad.Task.taskId | hasValue | 2026-04-26-w0z-shape-f-brief
+squad.Task.taskStatus | hasValue | done

@@ -1,0 +1,9 @@
+squad.Pod.podId | hasValue | cold-clone-audit-pod
+squad.Pod.podMembers | hasValue | h4nk
+squad.Pod.podMembers | hasValue | noum3na
+squad.Pod.podMembers | hasValue | w0z
+squad.Pod.podProject | hasValue | cold-start-judge-readiness
+squad.Pod.podStatus | hasValue | active
+squad.Pod.podTasks | hasValue | 2026-04-26-w0z-cold-judge-h4nk
+squad.Pod.podTasks | hasValue | 2026-04-26-w0z-cold-judge-m1dgley
+squad.Pod.podTasks | hasValue | 2026-04-26-w0z-cold-judge-noumena

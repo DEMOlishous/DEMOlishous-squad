@@ -1,0 +1,7 @@
+Squad/Message/2026-04-26-h4nk-to-squadling-event-log-question.md | linksTo | Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md
+Squad/Message/2026-04-26-h4nk-to-squadling-event-log-question.md | linksTo | Squad/Project/observability-corpus.md
+Squad/Message/2026-04-26-h4nk-to-squadling-event-log-question.md | linksTo | Squad/Task/2026-04-26-build-event-log-prototype.md
+squad.Message.from | hasValue | Squad/Squaddie/h4nk.md
+squad.Message.messageId | hasValue | 2026-04-26-h4nk-to-squadling-event-log-question
+squad.Message.messageStatus | hasValue | open
+squad.Message.to | hasValue | Squad/Squaddie/squadling.md

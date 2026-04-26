@@ -1,0 +1,4 @@
+squad.Task.assignedTo | hasValue | w0z
+squad.Task.relatedDecision | hasValue | 2026-04-26-w0z-cold-judge-method
+squad.Task.taskId | hasValue | 2026-04-26-w0z-cold-judge-noumena
+squad.Task.taskStatus | hasValue | done

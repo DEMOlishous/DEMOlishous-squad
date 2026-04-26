@@ -1,0 +1,5 @@
+squad.Bug.affectsProject | hasValue | soul-kit-discoveries-rollup
+squad.Bug.bugId | hasValue | 2026-04-26-untitled-md-orphan
+squad.Bug.bugSeverity | hasValue | major
+squad.Bug.bugStatus | hasValue | open
+squad.Bug.reportedBy | hasValue | h4nk

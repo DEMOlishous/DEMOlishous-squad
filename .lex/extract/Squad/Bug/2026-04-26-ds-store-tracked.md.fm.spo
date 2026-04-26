@@ -1,0 +1,5 @@
+squad.Bug.affectsProject | hasValue | cold-start-judge-readiness
+squad.Bug.bugId | hasValue | 2026-04-26-ds-store-tracked
+squad.Bug.bugSeverity | hasValue | cosmetic
+squad.Bug.bugStatus | hasValue | open
+squad.Bug.reportedBy | hasValue | w0z

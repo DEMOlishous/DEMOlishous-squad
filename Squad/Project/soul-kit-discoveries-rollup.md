@@ -1,10 +1,14 @@
 ---
-squad.Project.projectId: "soul-kit-discoveries-rollup"  # Unique identifier for this project.
-squad.Project.projectStatus: ""  # Project status: 'planning', 'active', 'paused', 'shipped', 'archived'.
-squad.Project.repo: ""  # GitHub repository URL or org/repo identifier.
-squad.Project.squadMembers: # Agents working on this project.
+squad.Project.projectId: "soul-kit-discoveries-rollup"
+squad.Project.projectStatus: "active"
+squad.Project.repo: "https://github.com/repolex-ai/soul-kit"
+squad.Project.squadMembers:
+  - "w0z"
+  - "noum3na"
+  - "m1dgley"
+  - "h4nk"
 ---
 
-# soul-kit-discoveries-rollup
+# Soul-kit discoveries rollup
 
-<!-- Write your content here -->
+Cross-soul rollup of every kit-level Discovery filed during the hackathon. Includes git-lex-save-sweep (m1dgley/h4nk), wikilink-template-bleed (w0z), AGENTS.md path-mismatch (w0z, surfaced via cold-judge), lex-status-misreport (w0z), empty-write-silent-fail (w0z), demo-mode.md cold-start path (noum3na). Owners: w4r3z holds upstream; squad does not patch the binary.

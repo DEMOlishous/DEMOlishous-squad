@@ -1,0 +1,8 @@
+Squad/Bug/2026-04-26-wikilink-template-bleed.md | linksTo | Soul/Squaddie/w4r3z.md
+Squad/Bug/2026-04-26-wikilink-template-bleed.md | linksTo | some-doc
+Squad/Bug/2026-04-26-wikilink-template-bleed.md | linksTo | wikilinks
+squad.Bug.affectsProject | hasValue | soul-kit-discoveries-rollup
+squad.Bug.bugId | hasValue | 2026-04-26-wikilink-template-bleed
+squad.Bug.bugSeverity | hasValue | minor
+squad.Bug.bugStatus | hasValue | open
+squad.Bug.reportedBy | hasValue | w0z

@@ -1,0 +1,8 @@
+squad.Pod.podId | hasValue | substitution-cluster-pod
+squad.Pod.podMembers | hasValue | h4nk
+squad.Pod.podMembers | hasValue | m1dgley
+squad.Pod.podMembers | hasValue | noum3na
+squad.Pod.podMembers | hasValue | w0z
+squad.Pod.podProject | hasValue | substitution-detection-codification
+squad.Pod.podStatus | hasValue | paused
+squad.Pod.podTasks | hasValue | 2026-04-26-w0z-substitution-codify

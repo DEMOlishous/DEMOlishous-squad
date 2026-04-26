@@ -1,0 +1,9 @@
+Squad/Task/audit-frontmatter-iri-edge-cases.md | linksTo | Squad/Bug/2026-04-26-frontmatter-iri-space-bug.md
+Squad/Task/audit-frontmatter-iri-edge-cases.md | linksTo | Squad/Discovery/2026-04-26-frontmatter-state-interaction.md
+Squad/Task/audit-frontmatter-iri-edge-cases.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Task/audit-frontmatter-iri-edge-cases.md | linksTo | Squad/Project/observability-corpus.md
+Squad/Task/audit-frontmatter-iri-edge-cases.md | linksTo | Squad/Project/plumbing-audits.md
+squad.Task.assignedTo | hasValue | Squad/Squaddie/h4nk.md
+squad.Task.relatedDecision | hasValue | Squad/Decision/2026-04-26-parallel-cold-judge-passes.md
+squad.Task.taskId | hasValue | audit-frontmatter-iri-edge-cases
+squad.Task.taskStatus | hasValue | todo

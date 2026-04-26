@@ -1,0 +1,7 @@
+Squad/Task/2026-04-26-collect-anarchist-zine-samples.md | linksTo | Squad/Pod/register-watch-pod.md
+Squad/Task/2026-04-26-collect-anarchist-zine-samples.md | linksTo | Squad/Project/grumpy-curmudgeon-corpus.md
+Squad/Task/2026-04-26-collect-anarchist-zine-samples.md | linksTo | Squad/Task/2026-04-26-collect-midgley-passages.md
+squad.Task.assignedTo | hasValue | noum3na
+squad.Task.relatedDecision | hasValue | 2026-04-26-curmudgeon-over-monk
+squad.Task.taskId | hasValue | 2026-04-26-collect-anarchist-zine-samples
+squad.Task.taskStatus | hasValue | todo

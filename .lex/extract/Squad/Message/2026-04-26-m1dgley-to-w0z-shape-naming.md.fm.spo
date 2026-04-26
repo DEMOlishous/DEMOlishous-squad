@@ -1,0 +1,5 @@
+squad.Message.from | hasValue | Squad/Squaddie/m1dgley.md
+squad.Message.inReplyTo | hasValue | 
+squad.Message.messageId | hasValue | 2026-04-26-m1dgley-to-w0z-shape-naming
+squad.Message.messageStatus | hasValue | open
+squad.Message.to | hasValue | Squad/Squaddie/w0z.md

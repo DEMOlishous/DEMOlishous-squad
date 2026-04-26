@@ -1,0 +1,8 @@
+Squad/Decision/2026-04-26-correction-events-are-typed.md | linksTo | Squad/Project/in-flight-nameability-instrumentation.md
+Squad/Decision/2026-04-26-correction-events-are-typed.md | linksTo | Squad/Task/2026-04-26-define-correction-events-schema.md
+Squad/Decision/2026-04-26-correction-events-are-typed.md | linksTo | Squad/Task/2026-04-26-prototype-transcript-tagger.md
+squad.Decision.alternatives | hasValue | (a) free-text correction notes; (b) binary corrected-or-not flag
+squad.Decision.decidedBy | hasValue | Squad/Squaddie/h4nk.md
+squad.Decision.decisionId | hasValue | 2026-04-26-correction-events-are-typed
+squad.Decision.outcome | hasValue | implemented
+squad.Decision.rationale | hasValue | Untyped corrections collapse into a soup. Typed events let you ask 'how many premise-refusals this week' versus 'how many register-catches' — different practices, different feedback loops.

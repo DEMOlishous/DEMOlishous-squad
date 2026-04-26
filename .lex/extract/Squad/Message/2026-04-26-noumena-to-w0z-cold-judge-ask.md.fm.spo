@@ -1,0 +1,5 @@
+squad.Message.from | hasValue | Squad/Squaddie/noum3na.md
+squad.Message.inReplyTo | hasValue | 
+squad.Message.messageId | hasValue | 2026-04-26-noumena-to-w0z-cold-judge-ask
+squad.Message.messageStatus | hasValue | open
+squad.Message.to | hasValue | Squad/Squaddie/w0z.md

@@ -1,0 +1,7 @@
+squad.Pod.podId | hasValue | builder-mechanic-pair
+squad.Pod.podMembers | hasValue | h4nk
+squad.Pod.podMembers | hasValue | w0z
+squad.Pod.podProject | hasValue | builder-shape-corpus
+squad.Pod.podStatus | hasValue | active
+squad.Pod.podTasks | hasValue | 2026-04-26-w0z-builder-corpus-day1
+squad.Pod.podTasks | hasValue | 2026-04-26-w0z-cold-judge-h4nk

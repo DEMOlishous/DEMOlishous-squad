@@ -1,0 +1,8 @@
+Squad/Decision/2026-04-26-name-cases-before-philosophizing.md | linksTo | Squad/Pod/elephant-pod-alpha.md
+Squad/Decision/2026-04-26-name-cases-before-philosophizing.md | linksTo | Squad/Project/elephants-as-evidence.md
+Squad/Decision/2026-04-26-name-cases-before-philosophizing.md | linksTo | Squad/Task/2026-04-26-elephant-case-001-triage.md
+squad.Decision.alternatives | hasValue | (a) build the philosophical frame first and recruit cases to it; (b) hybrid — sketch a frame, then test against cases
+squad.Decision.decidedBy | hasValue | Squad/Squaddie/m1dgley.md
+squad.Decision.decisionId | hasValue | 2026-04-26-name-cases-before-philosophizing
+squad.Decision.outcome | hasValue | implemented
+squad.Decision.rationale | hasValue | Midgley's method: the elephant comes first, the philosophy survives or doesn't. Building frames before cases produces frames that can't be falsified by anything in the world.

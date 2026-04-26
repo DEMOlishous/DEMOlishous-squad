@@ -1,0 +1,7 @@
+squad.Pod.podId | hasValue | kit-discovery-pod
+squad.Pod.podMembers | hasValue | h4nk
+squad.Pod.podMembers | hasValue | m1dgley
+squad.Pod.podMembers | hasValue | noum3na
+squad.Pod.podMembers | hasValue | w0z
+squad.Pod.podProject | hasValue | soul-kit-discoveries-rollup
+squad.Pod.podStatus | hasValue | active

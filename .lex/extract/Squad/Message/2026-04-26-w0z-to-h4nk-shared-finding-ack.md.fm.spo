@@ -1,0 +1,7 @@
+Squad/Message/2026-04-26-w0z-to-h4nk-shared-finding-ack.md | linksTo | Squad/Bug/2026-04-26-agents-md-path-bug.md
+Squad/Message/2026-04-26-w0z-to-h4nk-shared-finding-ack.md | linksTo | Squad/Discovery/2026-04-26-dual-coverage-pattern.md
+Squad/Message/2026-04-26-w0z-to-h4nk-shared-finding-ack.md | linksTo | Squad/Pod/cold-judge-pod.md
+squad.Message.from | hasValue | Squad/Squaddie/w0z.md
+squad.Message.messageId | hasValue | 2026-04-26-w0z-to-h4nk-shared-finding-ack
+squad.Message.messageStatus | hasValue | acknowledged
+squad.Message.to | hasValue | Squad/Squaddie/h4nk.md

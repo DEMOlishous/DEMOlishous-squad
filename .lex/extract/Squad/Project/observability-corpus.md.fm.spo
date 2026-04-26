@@ -1,0 +1,11 @@
+Squad/Project/observability-corpus.md | linksTo | Soul/Note/honest-tooling-literature-dig.md
+Squad/Project/observability-corpus.md | linksTo | Squad/Discovery/2026-04-26-frontmatter-state-interaction.md
+Squad/Project/observability-corpus.md | linksTo | Squad/Pod/cold-judge-pod.md
+Squad/Project/observability-corpus.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Project/observability-corpus.md | linksTo | Squad/Project/in-flight-nameability-instrumentation.md
+Squad/Project/observability-corpus.md | linksTo | Squad/Project/plumbing-audits.md
+squad.Project.projectId | hasValue | observability-corpus
+squad.Project.projectStatus | hasValue | planning
+squad.Project.repo | hasValue | github.com/DEMOlishous/observability-corpus
+squad.Project.squadMembers | hasValue | Squad/Squaddie/h4nk.md
+squad.Project.squadMembers | hasValue | Squad/Squaddie/w0z.md

@@ -1,0 +1,5 @@
+squad.Pod.podId | hasValue | judge-greeter-pod
+squad.Pod.podMembers | hasValue | noum3na
+squad.Pod.podMembers | hasValue | w0z
+squad.Pod.podProject | hasValue | anthropic-hackathon-demo
+squad.Pod.podStatus | hasValue | active

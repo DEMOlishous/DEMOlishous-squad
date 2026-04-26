@@ -1,0 +1,7 @@
+Squad/Task/2026-04-26-define-correction-events-schema.md | linksTo | Squad/Pod/instrumentation-pod.md
+Squad/Task/2026-04-26-define-correction-events-schema.md | linksTo | Squad/Project/in-flight-nameability-instrumentation.md
+Squad/Task/2026-04-26-define-correction-events-schema.md | linksTo | Squad/Task/2026-04-26-prototype-transcript-tagger.md
+squad.Task.assignedTo | hasValue | h4nk
+squad.Task.relatedDecision | hasValue | 2026-04-26-correction-events-are-typed
+squad.Task.taskId | hasValue | 2026-04-26-define-correction-events-schema
+squad.Task.taskStatus | hasValue | in-progress

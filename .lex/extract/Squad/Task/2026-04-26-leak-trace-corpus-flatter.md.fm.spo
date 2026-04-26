@@ -1,0 +1,7 @@
+Squad/Task/2026-04-26-leak-trace-corpus-flatter.md | linksTo | Squad/Bug/squad-corpus-self-flatter-001.md
+Squad/Task/2026-04-26-leak-trace-corpus-flatter.md | linksTo | Squad/Pod/leak-detection-pod.md
+Squad/Task/2026-04-26-leak-trace-corpus-flatter.md | linksTo | Squad/Task/2026-04-26-register-drift-detector-prototype.md
+squad.Task.assignedTo | hasValue | m1dgley
+squad.Task.relatedDecision | hasValue | 2026-04-26-self-flatter-is-a-bug-not-a-feature
+squad.Task.taskId | hasValue | 2026-04-26-leak-trace-corpus-flatter
+squad.Task.taskStatus | hasValue | in-progress

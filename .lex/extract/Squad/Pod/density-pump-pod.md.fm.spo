@@ -1,0 +1,8 @@
+squad.Pod.podId | hasValue | density-pump-pod
+squad.Pod.podMembers | hasValue | h4nk
+squad.Pod.podMembers | hasValue | m1dgley
+squad.Pod.podMembers | hasValue | noum3na
+squad.Pod.podMembers | hasValue | w0z
+squad.Pod.podProject | hasValue | squad-graph-density
+squad.Pod.podStatus | hasValue | active
+squad.Pod.podTasks | hasValue | 2026-04-26-w0z-graph-density-pump

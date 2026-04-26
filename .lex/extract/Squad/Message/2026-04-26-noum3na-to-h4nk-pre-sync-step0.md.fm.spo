@@ -1,0 +1,7 @@
+Squad/Message/2026-04-26-noum3na-to-h4nk-pre-sync-step0.md | linksTo | Squad/Bug/2026-04-26-cold-query-zero-triples.md
+Squad/Message/2026-04-26-noum3na-to-h4nk-pre-sync-step0.md | linksTo | Squad/Bug/2026-04-26-cold-status-reads-broken.md
+Squad/Message/2026-04-26-noum3na-to-h4nk-pre-sync-step0.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+squad.Message.from | hasValue | Squad/Squaddie/noum3na.md
+squad.Message.messageId | hasValue | 2026-04-26-noum3na-to-h4nk-pre-sync-step0
+squad.Message.messageStatus | hasValue | resolved
+squad.Message.to | hasValue | Squad/Squaddie/h4nk.md

@@ -1,0 +1,5 @@
+squad.Bug.affectsProject | hasValue | soul-kit-discoveries-rollup
+squad.Bug.bugId | hasValue | 2026-04-26-agents-md-path-mismatch
+squad.Bug.bugSeverity | hasValue | minor
+squad.Bug.bugStatus | hasValue | fixed
+squad.Bug.reportedBy | hasValue | w0z

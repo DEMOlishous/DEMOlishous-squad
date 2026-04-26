@@ -1,0 +1,9 @@
+Squad/Task/2026-04-26-elephant-case-002-triage.md | linksTo | Squad/Pod/elephant-pod-alpha.md
+Squad/Task/2026-04-26-elephant-case-002-triage.md | linksTo | Squad/Project/elephants-as-evidence.md
+Squad/Task/2026-04-26-elephant-case-002-triage.md | linksTo | Squad/Squaddie/h4nk.md
+Squad/Task/2026-04-26-elephant-case-002-triage.md | linksTo | Squad/Squaddie/m1dgley.md
+Squad/Task/2026-04-26-elephant-case-002-triage.md | linksTo | Squad/Task/2026-04-26-elephant-case-001-triage.md
+squad.Task.assignedTo | hasValue | Squad/Squaddie/h4nk.md
+squad.Task.blocks | hasValue | Squad/Task/2026-04-26-elephant-case-001-triage.md
+squad.Task.taskId | hasValue | 2026-04-26-elephant-case-002-triage
+squad.Task.taskStatus | hasValue | todo

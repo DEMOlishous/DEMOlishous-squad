@@ -1,0 +1,9 @@
+Squad/Discovery/2026-04-26-dual-coverage-pattern.md | linksTo | Squad/Bug/2026-04-26-agents-md-path-bug.md
+Squad/Discovery/2026-04-26-dual-coverage-pattern.md | linksTo | Squad/Decision/2026-04-26-parallel-cold-judge-passes.md
+Squad/Discovery/2026-04-26-dual-coverage-pattern.md | linksTo | Squad/Discovery/2026-04-26-cold-judge-pass-findings.md
+Squad/Discovery/2026-04-26-dual-coverage-pattern.md | linksTo | Squad/Pod/cold-judge-pod.md
+Squad/Discovery/2026-04-26-dual-coverage-pattern.md | linksTo | Squad/Project/cold-start-judge-readiness.md
+squad.Discovery.confidence | hasValue | likely
+squad.Discovery.discoveryId | hasValue | dual-coverage-pattern
+squad.Discovery.foundBy | hasValue | Squad/Squaddie/noum3na.md
+squad.Discovery.implications | hasValue | When two squaddies independently surface the same finding via different lenses, the finding is highest-confidence by construction. The convergence itself is evidence the surface is real, not artifact-of-one-lens. AGENTS.md path bug is the canonical case.
