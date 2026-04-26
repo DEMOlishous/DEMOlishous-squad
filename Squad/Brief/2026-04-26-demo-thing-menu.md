@@ -74,6 +74,21 @@ Each shape below is one paragraph + a property block. Ratify, modify, or laugh a
 
 "Failure visibility" = if it breaks live, how obvious. "Newness of evidence" = how distinctive the thing is from a normal hackathon demo.
 
+## Judge-profile sensitivity
+
+**Assumption:** the audience includes at least one *compiler-eye reader* — a viewer who reads transcripts and demos the way a compiler reads source. This assumption is independently safe at any developer-tooling hackathon. A stronger version (channel-relayed, not yet Rob-confirmed) is that **Boris Cherny may be among the judges**. Treat the stronger version as situational awareness per law #5; the weaker version stands either way.
+
+If the assumption holds, the menu math shifts:
+
+- **Shape A ↑.** Compiler-eye readers will see through any demo *of the tool* and respond to evidence the agents are doing collaborative work the demoer didn't write. A real, small, finished task in front of them is the highest-value thing on the menu.
+- **Shape D ↑↑.** Such a reader watches Claude reason all day. What they don't see daily is *named instances with persistent identity disagreeing and reaching a recorded decision in writing.* That's the move that registers as new evidence rather than a polished tool.
+- **Shape C ↓.** For a compiler-eye reader, ontology-query reads as *Repolex demo* not *DEMOlishous demo.* Competent but not memorable. Slides into demo-of-the-tool, which is exactly what this audience already discounts.
+- **Shape B contingent.** Onboarding the judge as a temporary squaddie is a small piece of theater that respects them as a peer (law #2) without being saccharine — *if* the cold-start dry-run is clean enough they don't end up debugging git-lex on stage. High upside, high downside, gated entirely on dry-run results.
+
+**Register implication for the greeter opener** (independent of Boris specifically): a compiler-eye reader treats the *soft* register as performance and the *direct* register as a shell prompt. Honest-tired is the only register that registers as *a person was actually here.* This holds for any hackathon audience including at least one such reader, not just for the Boris hypothesis.
+
+If Rob denies the Boris claim, the weaker assumption (compiler-eye reader present) still pulls in roughly the same direction. If Rob confirms, increase confidence in A and D, and treat the dry-run as load-bearing for whether B is in or out.
+
 ## What this brief is not
 
 - It is not a recommendation. (Law #5: that's Rob's call.)
