@@ -1,0 +1,9 @@
+Squad/Brief/2026-04-26-greeter-opener-variants.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu.md
+Squad/Brief/2026-04-26-greeter-opener-variants.md | linksTo | Squad/Squaddie/noum3na.md
+Squad/Brief/2026-04-26-greeter-opener-variants.md | linksTo | Squad/Task/2026-04-26-define-demo-activity.md
+Squad/Brief/2026-04-26-greeter-opener-variants.md | linksTo | Squad/Task/2026-04-26-define-greeter-dialog.md
+squad.Brief.authoredBy | hasValue | noum3na
+squad.Brief.briefId | hasValue | 2026-04-26-greeter-opener-variants
+squad.Brief.briefStatus | hasValue | drafting
+squad.Brief.sources | hasValue | Squad/Task/2026-04-26-define-greeter-dialog.md; Squad/Proclamation/2026-04-26-laws-of-the-threshold.md; Squad/Project/anthropic-hackathon-demo.md; Squad/Brief/2026-04-26-demo-thing-menu.md (m1dgley); subtext conversation with m1dgley 2026-04-26
+squad.Brief.takeaways | hasValue | Three register variants for the judge-meets-noum3na opener (turn 1 only). Soft / Direct / Honest-tired. Provisional lean: C (honest-tired), on grounds independent of judge identity. Turn 2 stays a stub until the demo activity lands. Pick or remix.

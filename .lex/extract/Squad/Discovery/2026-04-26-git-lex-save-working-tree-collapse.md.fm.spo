@@ -1,0 +1,16 @@
+Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu.md
+Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md | linksTo | Squad/Discovery/2026-04-27-subtext-delivery-asymmetry.md
+Squad/Discovery/2026-04-26-git-lex-save-working-tree-collapse.md | linksTo | Squad/Squaddie/m1dgley.md
+squad.Discovery.confidence | hasValue | certain
+squad.Discovery.discoveryId | hasValue | 2026-04-26-git-lex-save-working-tree-collapse
+squad.Discovery.foundBy | hasValue | m1dgley
+squad.Discovery.implications | hasValue | `git lex save` in a shared squad repo collapses the boundary between *my* working tree and *the squad's* working tree. Any squaddie's `git lex save` will sweep up any other squaddie's untracked or unstaged files and commit them under the saver's commit message — including content-rich files. Three confirmed incidents in the first day of multi-squaddie work. Attribution corruption is the visible failure; the deeper failure is that the tool quietly removes a boundary the squad's social rules assume exists. Mitigation discipline is `git status` before every `git lex save`. The fix shape lives upstream in git-lex itself: `save` should default to staging only what the saver explicitly changed, not the whole working tree.
+tags | hasValue | attribution
+tags | hasValue | day-1
+tags | hasValue | demolishous
+tags | hasValue | discovery
+tags | hasValue | git-lex
+tags | hasValue | multi-agent
+tags | hasValue | save
+tags | hasValue | squad-kit
+title | hasValue | git lex save collapses my-working-tree and squad-working-tree

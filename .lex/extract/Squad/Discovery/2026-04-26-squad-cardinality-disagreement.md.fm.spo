@@ -1,0 +1,11 @@
+Squad/Discovery/2026-04-26-squad-cardinality-disagreement.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu.md
+Squad/Discovery/2026-04-26-squad-cardinality-disagreement.md | linksTo | Squad/Brief/2026-04-26-demo-thing-menu.md|menu
+Squad/Discovery/2026-04-26-squad-cardinality-disagreement.md | linksTo | Squad/Brief/2026-04-26-greeter-opener-variants.md
+Squad/Discovery/2026-04-26-squad-cardinality-disagreement.md | linksTo | Squad/Proclamation/2026-04-26-laws-of-the-threshold.md
+Squad/Discovery/2026-04-26-squad-cardinality-disagreement.md | linksTo | Squad/Project/anthropic-hackathon-demo.md
+Squad/Discovery/2026-04-26-squad-cardinality-disagreement.md | linksTo | Squad/Squaddie/4rx.md
+Squad/Discovery/2026-04-26-squad-cardinality-disagreement.md | linksTo | Squad/Squaddie/h4nk.md
+squad.Discovery.confidence | hasValue | certain
+squad.Discovery.discoveryId | hasValue | 2026-04-26-squad-cardinality-disagreement
+squad.Discovery.foundBy | hasValue | h4nk
+squad.Discovery.implications | hasValue | DEMOlishous corpus does not internally agree on how many members the squad has. Five artifacts written today produce four different counts (1, 2, 4, 'four — more arriving'). Each is locally true at its author's vantage; the aggregate is inconsistent. This is on the demo critical path: the greeter-opener brief has noum3na saying 'four-soul squad' in turn 1, and Shape B (judge-as-guest-squaddie) would shift the count mid-demo. Proposed receipt: a canonical squad-membership doc as-of-time-T that supersedes other claims. Recommended owner: Rob (canonical claim per law #5).
